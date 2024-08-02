@@ -1,0 +1,57 @@
+# Portuguese to Spanish VTT Translator
+
+This project is a Python script that automatically translates VTT (WebVTT) subtitle files from Portuguese to Spanish using the Ollama AI model.
+
+## Features
+
+- Translates VTT files from Portuguese to Spanish
+- Maintains original timestamp structure
+- Adds timestamps to entries missing them
+- Processes multiple VTT files in a directory
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python 3.7 or higher
+- Ollama installed and set up on your system
+- The Llama2 13B model (or equivalent) available in your Ollama installation
+
+## Installation
+
+1. Clone this repository:
+
+git clone https://github.com/yourusername/vtt-translator.git
+cd vtt-translator
+
+2. Install the required Python packages:
+
+pip install ollama
+
+## Usage
+
+1. Place your Portuguese VTT files in the `./start-lang` directory.
+
+2. Run the script:
+
+python esp_trans.py
+
+3. The translated Spanish VTT files will be saved in the same directory with the prefix `translated_es_`.
+
+## Customization
+
+- To change the input/output directory, modify the `folder_path` variable in the `__main__` section of the script.
+- To use a different Ollama model, change the `model` parameter in the `ollama.generate()` function call.
+
+## Contributing
+
+Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- This project uses the Ollama AI model for translations.
+- Thanks to the open-source community for inspiration and resources.

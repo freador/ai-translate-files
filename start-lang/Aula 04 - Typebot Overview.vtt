@@ -1,0 +1,377 @@
+WEBVTT
+
+00:00:00.480 --> 00:00:02.240
+Fala aí, turma!
+
+00:00:03.160 --> 00:00:05.923
+Então, a gente acabou de ter nossa ...
+
+00:00:05.923 --> 00:00:10.166
+overview aí com o Flowwise, espero que vocês tenham ...
+
+00:00:10.166 --> 00:00:14.606
+gostado já dessa overview, mas agora a gente vai fazer ...
+
+00:00:14.606 --> 00:00:19.638
+uma brincadeira junto com o Typebot e o Evolution API, tá bom?
+
+00:00:20.160 --> 00:00:21.556
+Vamos começar pelo Typebot,
+
+00:00:21.556 --> 00:00:22.719
+então vamos abrir aqui.
+
+00:00:22.960 --> 00:00:27.440
+Vocês vão ver aí que dentro do Typebot tem muita coisa, né?
+
+00:00:29.320 --> 00:00:32.221
+Não que seja um problema, mas tem muita ferramentinha ...
+
+00:00:32.221 --> 00:00:33.639
+que a gente pode utilizar.
+
+00:00:34.880 --> 00:00:37.006
+Normalmente, quando a gente faz alguma ...
+
+00:00:37.006 --> 00:00:39.777
+coisa com o TypeVault, a gente vai ter esse Builder e ...
+
+00:00:39.777 --> 00:00:40.679
+vai ter o Viewer.
+
+00:00:41.240 --> 00:00:43.587
+O Viewer, se você configurasse um ...
+
+00:00:43.587 --> 00:00:46.772
+domínio pra ele, daria pra você é basicamente ...
+
+00:00:46.772 --> 00:00:50.544
+para enviar para alguém, alguém acessa esse chat seu,
+
+00:00:50.544 --> 00:00:53.310
+dá para você colocar dentro do seu site,
+
+00:00:53.310 --> 00:00:56.076
+dá para você colocar em outros lugares.
+
+00:00:56.600 --> 00:00:58.645
+O Builder é basicamente para nós,
+
+00:00:58.645 --> 00:00:59.959
+os administradores.
+
+00:01:00.000 --> 00:01:01.440
+Então vamos acessar ele aí.
+
+00:01:03.320 --> 00:01:06.506
+Eu adoro esses DarkMode aqui,
+
+00:01:06.506 --> 00:01:08.799
+são bons pra caramba.
+
+00:01:09.000 --> 00:01:12.820
+Dentro do Typebot é uma fermenta muito boa,
+
+00:01:12.820 --> 00:01:16.640
+eu recomendo muito para vocês utilizarem.
+
+00:01:17.440 --> 00:01:20.136
+Você tem toda a parte de configuração aqui que é ...
+
+00:01:20.136 --> 00:01:22.003
+simples, tem poucas coisas para ...
+
+00:01:22.003 --> 00:01:25.598
+configurar como modo e como invitar pessoas para participar.
+
+00:01:26.560 --> 00:01:28.923
+No caso de uma assinatura também de um plano pago,
+
+00:01:28.923 --> 00:01:30.479
+dá para você controlar por aqui.
+
+00:01:31.080 --> 00:01:32.840
+Mas não é o nosso objetivo.
+
+00:01:32.840 --> 00:01:35.160
+O nosso objetivo é vir aqui, criar um bot.
+
+00:01:35.760 --> 00:01:39.920
+Vamos começar ele do zero, para vocês entenderem como ele funciona.
+
+00:01:40.680 --> 00:01:44.760
+Ele tem aqui a mensagem do fundador quando você cria o primeiro bot.
+
+00:01:45.480 --> 00:01:50.565
+mas ele é uma ferramenta de fluxos conversacionais então ...
+
+00:01:50.565 --> 00:01:55.438
+daria para a gente montar um chatbot sem muito glamour,
+
+00:01:55.438 --> 00:01:59.569
+eu acho que eu posso dizer assim mas não é o nosso ...
+
+00:01:59.569 --> 00:02:03.065
+objetivo, a gente quer fazer ele com AI,
+
+00:02:03.065 --> 00:02:05.819
+então vamos lá primeiro passo,
+
+00:02:05.819 --> 00:02:10.162
+vamos renomear nosso bot para AI Top Watts então,
+
+00:02:10.162 --> 00:02:13.764
+bem BRzão Aqui dentro do Fluoize você tem ...
+
+00:02:13.764 --> 00:02:18.001
+basicamente essas caixinhas onde você espera a ...
+
+00:02:18.001 --> 00:02:21.497
+mensagem do usuário, faz condicional,
+
+00:02:21.497 --> 00:02:26.476
+dá pra você enviar e-mail, dá pra você enviar um request.
+
+00:02:26.520 --> 00:02:29.480
+Então dá pra gente trabalhar de diversas formas aqui dentro.
+
+00:02:29.680 --> 00:02:32.075
+E até pra vocês saberem, isso é genial,
+
+00:02:32.075 --> 00:02:33.422
+porque, por exemplo,
+
+00:02:33.422 --> 00:02:36.267
+às vezes quando há inteligência artificial,
+
+00:02:36.267 --> 00:02:38.588
+eu faço isso, quando ela não sabe o que ...
+
+00:02:38.588 --> 00:02:41.358
+responder, eu não deixo ela responder nada.
+
+00:02:41.720 --> 00:02:43.798
+Eu prefiro que ela me mande um e-mail,
+
+00:02:43.798 --> 00:02:46.614
+E eu tenho um controle do que eu tenho que abastecer ...
+
+00:02:46.614 --> 00:02:50.101
+dentro da inteligência artificial e isso se chama Continuous ...
+
+00:02:50.101 --> 00:02:51.442
+Intelligence, ou seja,
+
+00:02:51.442 --> 00:02:54.996
+eu vou continuar abastecendo a minha inteligência artificial ...
+
+00:02:54.996 --> 00:02:57.477
+baseado no que as pessoas perguntam pra mim.
+
+00:02:58.600 --> 00:03:01.645
+Mas pra vocês terem uma ideia básica aqui,
+
+00:03:01.645 --> 00:03:05.560
+vamos montar um fluxo conversacional básico, tá bom?
+
+00:03:06.560 --> 00:03:09.629
+A gente tem aqui o início, onde tudo começa.
+
+00:03:09.629 --> 00:03:13.636
+Daria pra gente tanto clicar Daria tanto pra gente ficar ...
+
+00:03:13.636 --> 00:03:15.767
+aqui e arrastar, por exemplo,
+
+00:03:15.767 --> 00:03:17.898
+um bubble, que é basicamente,
+
+00:03:17.898 --> 00:03:20.797
+ele traz um grupo quando a gente faz isso.
+
+00:03:20.840 --> 00:03:23.976
+A gente vincula o grupo aqui no início,
+
+00:03:23.976 --> 00:03:27.504
+e aqui daria pra gente mandar uma mensagem,
+
+00:03:27.504 --> 00:03:29.758
+por exemplo, Olá, tudo bem?
+
+00:03:31.320 --> 00:03:32.946
+E aí, esse grupo é umas ...
+
+00:03:32.946 --> 00:03:35.746
+mensagens sequenciais, então aqui,
+
+00:03:35.746 --> 00:03:39.359
+por exemplo, seria o nosso grupo de introdução.
+
+00:03:40.440 --> 00:03:42.280
+O próximo passo depois de um Olá, tudo bem?
+
+00:03:42.680 --> 00:03:45.821
+É esperar uma resposta do usuário,
+
+00:03:45.821 --> 00:03:49.504
+que seria escreva... e aí a gente vem aqui ...
+
+00:03:49.504 --> 00:03:53.079
+reiniciar, ele vai ter um Olá, tudo bem?
+
+00:03:54.000 --> 00:03:55.843
+E escreve para mim, tudo,
+
+00:03:55.843 --> 00:03:57.159
+preciso de ajuda.
+
+00:03:57.200 --> 00:03:59.808
+Aí daria para a gente colocar, por exemplo,
+
+00:03:59.808 --> 00:04:01.039
+um minuto buscando.
+
+00:04:01.400 --> 00:04:04.491
+E dá pra gente fazer essa experiência de chat ...
+
+00:04:04.491 --> 00:04:08.919
+conversacional aqui seguindo um fluxo de pergunta e resposta.
+
+00:04:09.520 --> 00:04:12.680
+Daria pra gente trazer botões pra pessoa selecionar.
+
+00:04:14.080 --> 00:04:16.531
+Os fluxos de pagamento eu ainda não utilizei,
+
+00:04:16.531 --> 00:04:18.079
+sendo bem honesto com vocês.
+
+00:04:19.000 --> 00:04:22.750
+E a parte de condicionamento que eu acabo utilizando ...
+
+00:04:22.750 --> 00:04:26.159
+bastante quando a gente fala de AI e de WhatsApp.
+
+00:04:26.880 --> 00:04:30.054
+Depois que a gente aprendeu a usar esse básico aqui ...
+
+00:04:30.054 --> 00:04:33.001
+dessas informações, até porque quando a gente ...
+
+00:04:33.001 --> 00:04:35.419
+fala com o fluxo que vai pelo WhatsApp,
+
+00:04:35.419 --> 00:04:38.442
+quem vai acabar mandando mensagem é o nosso bot,
+
+00:04:38.442 --> 00:04:39.878
+a nossa inteligência.
+
+00:04:39.960 --> 00:04:40.670
+Então, aqui,
+
+00:04:40.670 --> 00:04:42.737
+na realidade, é muito mais esperando a ...
+
+00:04:42.737 --> 00:04:44.997
+primeira mensagem do usuário para a gente ...
+
+00:04:44.997 --> 00:04:47.903
+conseguir responder com a inteligência artificial,
+
+00:04:47.903 --> 00:04:50.357
+e a gente vai ver mais para frente nesse curso.
+
+00:04:50.960 --> 00:04:54.630
+Mas daria para vocês manipularem os temas,
+
+00:04:54.630 --> 00:04:59.626
+porque no final das contas, você consegue disponibilizar ...
+
+00:04:59.626 --> 00:05:01.359
+essa URL também, né?
+
+00:05:01.680 --> 00:05:03.820
+Dá tanto para responder via WhatsApp,
+
+00:05:03.820 --> 00:05:05.559
+como também responder via URL.
+
+00:05:08.200 --> 00:05:10.216
+E aqui, até quando a gente faz esse ...
+
+00:05:10.216 --> 00:05:11.440
+do web, por exemplo,
+
+00:05:11.440 --> 00:05:14.104
+quando a gente clica no botão compartilhar,
+
+00:05:14.104 --> 00:05:17.560
+você pode ver que só tem que publicar primeiro ele aqui, ó.
+
+00:05:18.600 --> 00:05:20.653
+Então, a partir do momento que a ...
+
+00:05:20.653 --> 00:05:22.311
+gente publica, o Viewer,
+
+00:05:22.311 --> 00:05:25.944
+ele se torna possível aqui de ter o nosso bot disponível ...
+
+00:05:25.944 --> 00:05:27.918
+para as pessoas perguntarem.
+
+00:05:27.960 --> 00:05:31.311
+Isso é disponibilizado em toda a internet e aí dá pra gente ...
+
+00:05:31.311 --> 00:05:32.777
+adicionar, por exemplo,
+
+00:05:32.777 --> 00:05:34.173
+via widget, via script,
+
+00:05:34.173 --> 00:05:35.639
+via wireframe, tá vendo?
+
+00:05:36.280 --> 00:05:39.160
+É bem, bem legal.
+
+00:05:39.880 --> 00:05:42.736
+Ainda assim, Com o nosso primeiro bot ...
+
+00:05:42.736 --> 00:05:44.394
+aqui, super simples,
+
+00:05:44.394 --> 00:05:47.065
+configurado, daria para a gente já ...
+
+00:05:47.065 --> 00:05:50.105
+configurar ele no nosso Evolution API,
+
+00:05:50.105 --> 00:05:54.158
+para a gente já ter o chat respondendo pelo WhatsApp.
+
+00:05:54.320 --> 00:05:58.880
+E eu acho que esse vai ser a nossa próxima aula.
+
+00:05:59.560 --> 00:06:00.827
+Fechado? Então,
+
+00:06:00.827 --> 00:06:02.999
+Bubble está aqui para vocês.
+
+00:06:04.000 --> 00:06:05.760
+E a gente já...  Oh, Bubble.
+
+00:06:05.800 --> 00:06:08.234
+Então, TypeBot já está aqui em uma ...
+
+00:06:08.234 --> 00:06:11.103
+intro com vocês, a gente já criou o nosso ...
+
+00:06:11.103 --> 00:06:14.233
+primeiro Bot, já tem ele como compartilhar ...
+
+00:06:14.233 --> 00:06:18.319
+e aí a gente já vai fazer a configuração no Evolution API.
+

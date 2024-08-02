@@ -1,0 +1,677 @@
+WEBVTT
+
+00:00:00.520 --> 00:00:03.080
+Boa time, vocês que chegaram até aqui, parabéns.
+
+00:00:03.080 --> 00:00:07.320
+A gente tá chegando aí no nosso finalzinho do curso.
+
+00:00:07.880 --> 00:00:09.480
+Vamos juntar agora tudo isso?
+
+00:00:09.960 --> 00:00:11.055
+Bom, a gente já tem nossa ...
+
+00:00:11.055 --> 00:00:13.137
+inteligência artificial aqui configurada,
+
+00:00:13.137 --> 00:00:13.958
+respondendo bem.
+
+00:00:14.000 --> 00:00:17.699
+A gente já tem o nosso bot do WhatsApp que a gente já ...
+
+00:00:17.699 --> 00:00:22.119
+pode utilizar aqui e fazer a conexão com o Flowwise, certo?
+
+00:00:23.040 --> 00:00:25.280
+E a gente também já tem o nosso Evolution API ...
+
+00:00:25.280 --> 00:00:27.520
+configuradinho com o WhatsApp bonitinho.
+
+00:00:27.560 --> 00:00:29.394
+Então, a gente tem tudo que precisa ...
+
+00:00:29.394 --> 00:00:31.039
+para fazer esse bot funcionar.
+
+00:00:31.320 --> 00:00:33.160
+E a gente vai fazer funcionar agora.
+
+00:00:33.160 --> 00:00:35.520
+Então, vamos lá.
+
+00:00:35.680 --> 00:00:38.949
+Primeiro passo, a gente vai precisar...
+
+00:00:38.949 --> 00:00:40.679
+Vim aqui no FlowWise.
+
+00:00:41.680 --> 00:00:42.693
+Então, a gente vai...
+
+00:00:42.693 --> 00:00:44.719
+Deixa eu colocar essa carinha aqui do lado.
+
+00:00:45.120 --> 00:00:47.000
+Tem uma telinha aqui que fica me atrapalhando bastante.
+
+00:00:47.040 --> 00:00:49.920
+A gente vem nesse compartilhar o código, tá vendo?
+
+00:00:50.680 --> 00:00:52.160
+E nele ele tem esse curl.
+
+00:00:52.840 --> 00:00:57.960
+Esse curl aqui é basicamente uma URL pra você fazer um request.
+
+00:00:58.000 --> 00:01:01.772
+Ele tá falando aqui ó, manda pergunta do estilo de ...
+
+00:01:01.772 --> 00:01:04.440
+post com o content de application.
+
+00:01:04.480 --> 00:01:07.467
+Então com isso a gente já consegue utilizar a nossa AI ...
+
+00:01:07.467 --> 00:01:10.319
+pra fazer as perguntas e respostas pelo WhatsApp.
+
+00:01:11.920 --> 00:01:13.695
+Segundo passo, a gente vai lá dentro do ...
+
+00:01:13.695 --> 00:01:15.359
+Fluwise, que a gente já configurou.
+
+00:01:15.360 --> 00:01:18.560
+Então, isso daí é bom pra gente.
+
+00:01:19.240 --> 00:01:21.960
+Mas esses passinhos aqui não vão fazer sentido pra ...
+
+00:01:21.960 --> 00:01:25.199
+esse bot que a gente vai fazer com inteligência artificial.
+
+00:01:25.640 --> 00:01:27.520
+Porque basicamente, como é que vai funcionar?
+
+00:01:27.560 --> 00:01:30.396
+A pessoa vai mandar uma pergunta pra gente e a ...
+
+00:01:30.396 --> 00:01:33.079
+inteligência artificial vai responder.
+
+00:01:33.400 --> 00:01:35.280
+Pelo menos nessa primeira etapa.
+
+00:01:35.800 --> 00:01:37.320
+Daria pra gente, por exemplo,
+
+00:01:37.320 --> 00:01:40.360
+fazer uma inteligência artificial que vai entender qual é a ...
+
+00:01:40.360 --> 00:01:41.880
+categoria daquela pergunta.
+
+00:01:42.800 --> 00:01:46.102
+mandar a pergunta para outra inteligência artificial que vai ...
+
+00:01:46.102 --> 00:01:47.880
+responder somente sobre aquilo.
+
+00:01:48.360 --> 00:01:50.280
+Dá para adicionar níveis de complexidade.
+
+00:01:50.760 --> 00:01:51.653
+Mas, nesse momento,
+
+00:01:51.653 --> 00:01:54.439
+eu quero mostrar para vocês de forma simples como ele funciona.
+
+00:01:54.440 --> 00:01:56.120
+Então, o que a gente vai fazer?
+
+00:01:56.720 --> 00:02:03.160
+Ele tem uma etapa aqui que ele vai pegar Deixa eu ver...  Cadê?
+
+00:02:07.160 --> 00:02:09.240
+que eu preciso só pegar o texto,
+
+00:02:09.240 --> 00:02:11.160
+acho que é aqui, deixa eu ver.
+
+00:02:11.160 --> 00:02:15.294
+Isso mesmo, que o cliente ele vai mandar a ...
+
+00:02:15.294 --> 00:02:17.239
+pergunta dele, né?
+
+00:02:17.840 --> 00:02:23.960
+Então Isso aqui é para a interface web, tá?
+
+00:02:24.920 --> 00:02:29.290
+Mas ele vai mandar a pergunta dele e aí a gente vai ...
+
+00:02:29.290 --> 00:02:32.239
+salvar a resposta como ensure 1.
+
+00:02:32.240 --> 00:02:36.103
+Ou pode ser também como resposta 1 para ficar mais ...
+
+00:02:36.103 --> 00:02:37.799
+fácil para a turma aí.
+
+00:02:37.840 --> 00:02:40.824
+A gente coletou a pergunta dele,
+
+00:02:40.824 --> 00:02:43.919
+mas por enquanto, né, uma AI base.
+
+00:02:44.600 --> 00:02:47.344
+Por enquanto ele ainda não está conectado,
+
+00:02:47.344 --> 00:02:48.639
+precisa só vir aqui.
+
+00:02:48.640 --> 00:02:53.333
+Então todo mundo que mandar uma pergunta aqui no ...
+
+00:02:53.333 --> 00:02:57.439
+chat ele vai coletar ali, tá aí tranquilo.
+
+00:02:58.080 --> 00:03:05.600
+Segundo passo, é eu fazer uma um request.
+
+00:03:06.960 --> 00:03:09.680
+Cadê request, request, request?
+
+00:03:09.720 --> 00:03:11.160
+Aqui, http request.
+
+00:03:11.560 --> 00:03:16.320
+Bom, o que eu preciso fazer nesse request aqui?
+
+00:03:16.360 --> 00:03:21.760
+Preciso copiar aquela URL lá do...  do Flowwise.
+
+00:03:23.080 --> 00:03:26.112
+Mas ainda não está pronto, preciso fazer uma ...
+
+00:03:26.112 --> 00:03:28.079
+configuração adicional aí.
+
+00:03:28.960 --> 00:03:31.706
+Que é, eu preciso colocar a ...
+
+00:03:31.706 --> 00:03:35.700
+configuração adicional, vir no post,
+
+00:03:35.700 --> 00:03:40.318
+e aí eu preciso mandar o meu custom boundary.
+
+00:03:40.880 --> 00:03:44.912
+E esse custom boundary, ele tem que ir com o JSON ...
+
+00:03:44.912 --> 00:03:46.359
+assim, questão.
+
+00:03:53.960 --> 00:03:56.000
+Só assim já daria para a gente fazer um teste, por exemplo.
+
+00:03:56.040 --> 00:03:59.042
+Então, se eu vim aqui em reiniciar,
+
+00:03:59.042 --> 00:04:03.597
+eu posso mandar qualquer coisa que ele vai me trazer a ...
+
+00:04:03.597 --> 00:04:04.839
+resposta, né?
+
+00:04:04.880 --> 00:04:06.376
+Mas, pera aí,
+
+00:04:06.376 --> 00:04:11.680
+eu tenho que só vir aqui e colocar uma resposta.
+
+00:04:11.800 --> 00:04:14.200
+Só que eu tenho que só fazer algumas coisinhas aqui.
+
+00:04:15.160 --> 00:04:17.960
+Cadê?
+
+00:04:17.960 --> 00:04:19.760
+Tenho que adicionar um header.
+
+00:04:22.160 --> 00:04:25.033
+O header vai ser application.json,
+
+00:04:25.033 --> 00:04:25.799
+né? Cadê?
+
+00:04:26.720 --> 00:04:30.429
+Deixa eu colocar esse carinha aqui do lado pra me ajudar ...
+
+00:04:30.429 --> 00:04:31.719
+um pouquinho mais.
+
+00:04:32.360 --> 00:04:35.818
+É o header, é content type e ...
+
+00:04:35.818 --> 00:04:39.119
+application.json aqui.
+
+00:04:40.360 --> 00:04:41.880
+Pum, beleza.
+
+00:04:42.800 --> 00:04:50.680
+E aí, nosso body já tá certinho aqui.
+
+00:04:52.240 --> 00:04:57.512
+E a gente precisa só fazer essa parte de adicionar os ...
+
+00:04:57.512 --> 00:04:59.719
+valores para testar.
+
+00:04:59.720 --> 00:05:07.280
+E aí seria a resposta 1.
+
+00:05:07.320 --> 00:05:10.297
+E a resposta 1 é igual a, sei lá,
+
+00:05:10.297 --> 00:05:12.559
+AI, consultoria de AI.
+
+00:05:12.640 --> 00:05:17.440
+Vou testar o request.
+
+00:05:20.040 --> 00:05:26.154
+Vamos ver se ele vai trazer alguma coisa baseado ...
+
+00:05:26.154 --> 00:05:28.599
+naquela pergunta.
+
+00:05:28.760 --> 00:05:34.280
+Deu certinho, e aí a gente só coloca aqui.
+
+00:05:34.400 --> 00:05:36.480
+Ele está falando aqui, basicamente.
+
+00:05:37.320 --> 00:05:41.600
+Eu tenho o meu request e eu quero colocar a minha resposta.
+
+00:05:41.960 --> 00:05:45.911
+Minha resposta foi esse texto aqui,
+
+00:05:45.911 --> 00:05:51.443
+então eu tenho que pegar data.text e aqui eu coloco ...
+
+00:05:51.443 --> 00:05:54.999
+como resposta AI1, por exemplo.
+
+00:05:59.680 --> 00:06:01.694
+E aí, claramente aqui na minha ...
+
+00:06:01.694 --> 00:06:04.030
+resposta, eu teria que colocar uma ...
+
+00:06:04.030 --> 00:06:05.238
+variável também.
+
+00:06:06.160 --> 00:06:10.370
+que seria a resposta AI1, essa variável pergunta que ...
+
+00:06:10.370 --> 00:06:13.910
+ficou bem ruim, depois dá para a gente trocar ...
+
+00:06:13.910 --> 00:06:15.249
+ela para, sei lá,
+
+00:06:15.249 --> 00:06:18.598
+pergunta cliente, para ficar mais fácil.
+
+00:06:19.280 --> 00:06:22.220
+Mas aí aqui, como vocês podem ver,
+
+00:06:22.220 --> 00:06:25.055
+ele já está enviando a pergunta,
+
+00:06:25.055 --> 00:06:26.840
+hey bro, how are you,
+
+00:06:26.840 --> 00:06:30.200
+aí ele não sabe o que responder ali, né?
+
+00:06:31.160 --> 00:06:35.540
+Então, eu venho aqui no body e troco ...
+
+00:06:35.540 --> 00:06:38.258
+esse hey, how are you,
+
+00:06:38.258 --> 00:06:41.278
+para o do brackets aqui.
+
+00:06:42.480 --> 00:06:44.560
+Então, vamos colocar esses brackets.
+
+00:06:45.760 --> 00:06:51.240
+Eu não sei qual o nome disso, vocês me ajudam aí depois.
+
+00:06:52.160 --> 00:06:55.800
+Só tirando aquele ali e vamos reiniciar aqui para ver.
+
+00:06:58.720 --> 00:07:06.680
+Como está você?
+
+00:07:06.680 --> 00:07:08.840
+Um minutinho e já te respondo.
+
+00:07:09.080 --> 00:07:12.273
+Pelo menos já deu para entender que a pergunta foi ...
+
+00:07:12.273 --> 00:07:13.519
+certinha para ele.
+
+00:07:14.480 --> 00:07:20.480
+A gente consegue ver aqui os resultados.
+
+00:07:20.640 --> 00:07:21.536
+Então, tudo ótimo,
+
+00:07:21.536 --> 00:07:22.264
+tudo ótimo, já,
+
+00:07:22.264 --> 00:07:22.600
+já, já.
+
+00:07:23.600 --> 00:07:27.602
+Então já dá pra gente ter uma ideia de que tá funcionando o ...
+
+00:07:27.602 --> 00:07:28.879
+nosso fluxo aqui.
+
+00:07:29.320 --> 00:07:32.703
+Talvez ainda não esteja com a resposta que a gente tá ...
+
+00:07:32.703 --> 00:07:35.063
+precisando, mas aí a gente consegue ...
+
+00:07:35.063 --> 00:07:36.558
+ajustar, e só de menos.
+
+00:07:37.640 --> 00:07:44.689
+Mas o bom dele responder esse um minuto pra gente um ...
+
+00:07:44.689 --> 00:07:49.556
+minutinho, é exatamente isso que a ...
+
+00:07:49.556 --> 00:07:54.759
+gente quer que ele responda. Por quê?
+
+00:07:54.760 --> 00:08:00.253
+A gente vai criar um novo grupo aqui com uma ...
+
+00:08:00.253 --> 00:08:05.432
+validação, que é quando a inteligência ...
+
+00:08:05.432 --> 00:08:12.337
+artificial não saber a resposta, como é esse caso aí,
+
+00:08:12.337 --> 00:08:17.359
+a gente consegue fazer uma validação.
+
+00:08:18.160 --> 00:08:36.560
+Se a resposta da inteligência artificial se ela for igual a esse carinha aqui.
+
+00:08:36.680 --> 00:08:40.040
+Se ela for igual, que é quando ela não sabe,
+
+00:08:40.040 --> 00:08:43.880
+a gente vai mandar um e-mail aqui. Cadê o e-mail?
+
+00:08:54.480 --> 00:09:07.840
+com o título AI sem resposta.
+
+00:09:07.840 --> 00:09:18.800
+A inteligência artificial não teve resposta para a pergunta.
+
+00:09:18.840 --> 00:09:20.480
+E aí a gente coloca aqui, resposta AI.
+
+00:09:20.560 --> 00:09:24.755
+Então, se isso acontecer,
+
+00:09:24.755 --> 00:09:26.662
+Bom, se não,
+
+00:09:26.662 --> 00:09:31.239
+o que a gente vai fazer é Cadê?
+
+00:09:32.480 --> 00:09:32.720
+Aqui.
+
+00:09:33.880 --> 00:09:36.302
+Se isso não acontecer, bom,
+
+00:09:36.302 --> 00:09:40.303
+responde ali pra inteligência artificial e,
+
+00:09:40.303 --> 00:09:44.199
+boa, deixa eu só vincular esse carinha aqui.
+
+00:09:46.400 --> 00:09:49.600
+Então, reinicia.
+
+00:09:54.000 --> 00:09:55.800
+Olá, como você está?
+
+00:10:02.520 --> 00:10:06.790
+Bom gente, aí para finalizar,
+
+00:10:06.790 --> 00:10:10.719
+a gente tem nossa resposta.
+
+00:10:11.760 --> 00:10:15.520
+Eu tirei aquele negócio do e-mail porque ele estava ...
+
+00:10:15.520 --> 00:10:16.919
+bugando o Typebot.
+
+00:10:16.960 --> 00:10:18.160
+O que acontece?
+
+00:10:19.280 --> 00:10:21.057
+Para você conseguir disparar o e-mail,
+
+00:10:21.057 --> 00:10:23.480
+aqui ele pede para que você não use o e-mail principal e ...
+
+00:10:23.480 --> 00:10:24.718
+adicione uma nova conexão.
+
+00:10:24.960 --> 00:10:27.124
+Só que aí você tem que fazer todo o processo de ...
+
+00:10:27.124 --> 00:10:28.879
+verificação lá dentro do SendGrid.
+
+00:10:29.480 --> 00:10:32.733
+Não vou fazer ele pra gente nesse momento porque eu ...
+
+00:10:32.733 --> 00:10:34.359
+acho que não faz sentido.
+
+00:10:37.040 --> 00:10:38.541
+E aí, o que acontece é,
+
+00:10:38.541 --> 00:10:40.793
+eu coloquei aqui a resposta EA1,
+
+00:10:40.793 --> 00:10:44.214
+fiz a validação A do C, se vocês quiserem utilizar ...
+
+00:10:44.214 --> 00:10:46.466
+essa parte do e-mail, também dá,
+
+00:10:46.466 --> 00:10:49.219
+é só adicionar e fazer a verificação lá,
+
+00:10:49.219 --> 00:10:51.221
+né, pra quando a gente tiver a ...
+
+00:10:51.221 --> 00:10:52.556
+resposta correta.
+
+00:10:53.400 --> 00:10:55.560
+Com isso, vocês verem aqui ó,
+
+00:10:55.560 --> 00:10:58.440
+ela até tinha mandado já um oi tudo bem.
+
+00:10:59.000 --> 00:11:01.480
+Vou mandar de novo, só pra ver se ele responde.
+
+00:11:04.040 --> 00:11:06.040
+Mandei lá oi, tudo bem?
+
+00:11:06.200 --> 00:11:09.360
+Tudo ótimo, como posso te ajudar?
+
+00:11:10.440 --> 00:11:14.989
+Estou querendo uma ajuda com consultoria de ...
+
+00:11:14.989 --> 00:11:20.399
+inteligência artificial. Você consegue me ajudar?
+
+00:11:29.520 --> 00:11:30.814
+Claro, na CodeBuy oferecemos ...
+
+00:11:30.814 --> 00:11:33.403
+serviços de consultoria de AI para ajudar a sua organização ...
+
+00:11:33.403 --> 00:11:34.438
+a aproveitar ao máximo.
+
+00:11:34.840 --> 00:11:36.960
+Olha que animal, gente.  Que animal.
+
+00:11:37.000 --> 00:11:38.280
+Vamos marcar a reunião.
+
+00:11:40.880 --> 00:11:43.432
+Então, a partir daqui é onde começa ...
+
+00:11:43.432 --> 00:11:47.480
+a fazer todo o atendimento automatizado, tudo aquilo.
+
+00:11:48.120 --> 00:11:52.600
+Então, como vocês podem ver aqui, funcionou bem.
+
+00:11:53.520 --> 00:11:56.927
+Teve o bug ali do TypeBot, que a gente só deletou o ...
+
+00:11:56.927 --> 00:12:00.759
+e-mail e voltou a funcionar toda a arquitetura nossa.
+
+00:12:01.640 --> 00:12:03.622
+Mas de uma maneira bem simples,
+
+00:12:03.622 --> 00:12:06.367
+a gente tem uma AI respondendo perguntas e a ...
+
+00:12:06.367 --> 00:12:08.425
+gente consegue, a partir daqui,
+
+00:12:08.425 --> 00:12:11.398
+ir evoluindo e incrementando-a cada vez mais.
+
+00:12:11.920 --> 00:12:14.466
+Mas para você que tem um negócio e hoje já precisa ...
+
+00:12:14.466 --> 00:12:16.630
+fazer um teste, entender como pode fazer ...
+
+00:12:16.630 --> 00:12:19.176
+uma pergunta em resposta, talvez condicionar,
+
+00:12:19.176 --> 00:12:22.104
+usar uma inteligência artificial de uma forma um pouco ...
+
+00:12:22.104 --> 00:12:23.759
+diferente, aqui já é possível.
+
+00:12:23.760 --> 00:12:26.480
+Já é possível você consultar, já aprendeu a fazer uma API aqui.
+
+00:12:27.400 --> 00:12:30.320
+E aí agora é o limite, né?
+
+00:12:30.480 --> 00:12:34.362
+Você explorar melhor essa tecnologia e evoluir muito ...
+
+00:12:34.362 --> 00:12:36.519
+mais o que você aprendeu aqui.
+
+00:12:37.240 --> 00:12:39.320
+Espero que tenha sido uma boa jornada.
+
+00:12:40.200 --> 00:12:45.000
+Peço já desculpa antes de qualquer coisa pra vocês aí.
+
+00:12:45.120 --> 00:12:47.567
+Se não tiver algum ponto que tenha sido muito bem ...
+
+00:12:47.567 --> 00:12:49.279
+esclarecido, mandem perguntas.
+
+00:12:49.400 --> 00:12:50.760
+Tem um chat aqui pra isso.
+
+00:12:51.680 --> 00:12:52.520
+E eu quero ver, né,
+
+00:12:52.520 --> 00:12:54.928
+se depois vocês puderem mandar o que vocês fizeram,
+
+00:12:54.928 --> 00:12:56.160
+o que vocês estão fazendo.
+
+00:12:56.600 --> 00:12:59.280
+Vai ser um grande prazer aí.
+
+00:12:59.440 --> 00:13:03.077
+Não esqueçam de acessar lá o meu site,
+
+00:13:03.077 --> 00:13:08.239
+se inscrever na newsletter pra saber das novidades.
+
+00:13:09.120 --> 00:13:10.256
+E bom, eu tô por aqui,
+
+00:13:10.256 --> 00:13:12.328
+tô nas redes, tô em qualquer lugar pra ...
+
+00:13:12.328 --> 00:13:15.536
+poder ajudar você cada vez mais a utilizar a inteligência ...
+
+00:13:15.536 --> 00:13:17.875
+artificial e crescer mais no seu dia a dia,
+
+00:13:17.875 --> 00:13:18.677
+tá bom, gente?
+
+00:13:19.080 --> 00:13:22.212
+Foi uma grande honra ter vocês por todo esse tempo e ...
+
+00:13:22.212 --> 00:13:23.479
+vamos continuar aí.
+
+00:13:23.720 --> 00:13:25.367
+Me manda mensagem que eu quero ver o crescimento de ...
+
+00:13:25.367 --> 00:13:25.759
+vocês, viu?
+
+00:13:26.520 --> 00:13:29.480
+Beijão aí pra vocês e até a próxima.
+

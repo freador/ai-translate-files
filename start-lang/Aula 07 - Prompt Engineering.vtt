@@ -1,0 +1,332 @@
+WEBVTT
+
+00:00:00.320 --> 00:00:01.690
+Fala, pessoal.
+
+00:00:01.690 --> 00:00:05.697
+Antes da gente seguir para a nossa fase final,
+
+00:00:05.697 --> 00:00:08.860
+que é basicamente juntar tudo isso,
+
+00:00:08.860 --> 00:00:13.078
+eu quero falar com vocês sobre prompt engineer.
+
+00:00:13.240 --> 00:00:17.001
+Muitos falam que é uma nova profissão e realmente quem ...
+
+00:00:17.001 --> 00:00:20.344
+consegue fazer prompts muito bons consegue ter ...
+
+00:00:20.344 --> 00:00:24.439
+inteligências que respondem e agem de uma forma muito boa.
+
+00:00:24.960 --> 00:00:27.360
+Ele faz uma baita diferença de verdade no projeto.
+
+00:00:28.080 --> 00:00:29.623
+Então, deixa eu só mudar meu ...
+
+00:00:29.623 --> 00:00:32.239
+rostinho de lugar, atrapalhando como sempre.
+
+00:00:33.240 --> 00:00:37.348
+A gente consegue montar o nosso próprio prompt para ...
+
+00:00:37.348 --> 00:00:40.119
+responder de uma forma diferente.
+
+00:00:40.120 --> 00:00:42.563
+Então, às vezes eu quero que ele ...
+
+00:00:42.563 --> 00:00:46.039
+sempre entenda que ele é o biro, por exemplo.
+
+00:00:46.040 --> 00:00:52.051
+Eu tenho que falar para a minha inteligência que ela é o ...
+
+00:00:52.051 --> 00:00:55.657
+biro, que ela é a loja da esquina,
+
+00:00:55.657 --> 00:01:01.534
+que ela é especialista em inteligência artificial,
+
+00:01:01.534 --> 00:01:07.679
+que sempre ela deve tratar o cliente de uma maneira boa,
+
+00:01:07.679 --> 00:01:13.957
+que ao final de cada frase pergunte que precisa de ajuda.
+
+00:01:13.960 --> 00:01:15.600
+Então aqui tem uma que ele já vem, ó.
+
+00:01:16.520 --> 00:01:18.210
+um prompt de resposta padrão,
+
+00:01:18.210 --> 00:01:21.319
+que dá pra gente sair editando e melhorando isso daqui.
+
+00:01:22.040 --> 00:01:24.087
+Eu recomendo muito que vocês façam isso,
+
+00:01:24.087 --> 00:01:25.351
+até porque, por exemplo,
+
+00:01:25.351 --> 00:01:27.639
+quando eles não sabem, vai responder não sei.
+
+00:01:28.760 --> 00:01:35.085
+Então, pode trocar por exemplo,
+
+00:01:35.085 --> 00:01:43.519
+estou um minutinho, por favor, já retorno.
+
+00:01:43.560 --> 00:01:44.880
+Será que vai ser quando ele não sabe?
+
+00:01:46.560 --> 00:01:53.760
+Seu nome é Biro ou Felipe.
+
+00:01:53.840 --> 00:01:56.975
+É que aqui tá em inglês já, mas daria pra gente refazer ...
+
+00:01:56.975 --> 00:02:00.039
+isso aqui em português, não teria nenhum problema.
+
+00:02:01.200 --> 00:02:05.779
+E aqui ele tá bem pautado que é pra responder baseado ...
+
+00:02:05.779 --> 00:02:09.719
+nos recursos ali que foram providenciados.
+
+00:02:10.320 --> 00:02:15.548
+Mas a gente pode, por exemplo,
+
+00:02:15.548 --> 00:02:24.541
+always conduce the customer to book an appointment ...
+
+00:02:24.541 --> 00:02:27.678
+through the link.
+
+00:02:27.720 --> 00:02:32.280
+Nos inglês aí não tá legal, hein?  Mas bora.
+
+00:02:49.640 --> 00:02:51.734
+e prontinho. Aí ele vai sempre conduzir ...
+
+00:02:51.734 --> 00:02:52.559
+para a reunião.
+
+00:02:53.320 --> 00:02:55.440
+Outra dica aqui para vocês.
+
+00:02:57.120 --> 00:02:58.400
+Esse é o nosso prompt.
+
+00:02:58.400 --> 00:03:00.142
+Se quiser mexer e manipular no prompt,
+
+00:03:00.142 --> 00:03:02.319
+vai por aqui, ele vai responder cada vez melhor.
+
+00:03:03.600 --> 00:03:05.440
+Se a gente vier aqui, por exemplo, ao Abiro.
+
+00:03:07.520 --> 00:03:11.560
+Tudo bem?
+
+00:03:11.600 --> 00:03:12.680
+Vamos ver como ele vai responder.
+
+00:03:14.080 --> 00:03:15.520
+E ele não sabe se está tudo bem, não.
+
+00:03:15.560 --> 00:03:19.520
+Aí a gente vai melhorando o nosso prompt aqui.
+
+00:03:22.240 --> 00:03:27.600
+Porque no final das contas, ele vai aprendendo e melhorando.
+
+00:03:27.840 --> 00:03:31.480
+Sabe o que eu queria também falar para vocês?
+
+00:03:32.320 --> 00:03:34.912
+Se ele não sabe a informação,
+
+00:03:34.912 --> 00:03:36.424
+aí, por exemplo,
+
+00:03:36.424 --> 00:03:38.368
+para ele, nesse caso,
+
+00:03:38.368 --> 00:03:40.960
+ele não sabe se está tudo bem.
+
+00:03:41.520 --> 00:03:42.880
+Eu posso colocar aqui.
+
+00:03:44.640 --> 00:03:48.680
+Então a gente vai melhorando.
+
+00:03:55.280 --> 00:04:01.698
+Lembra, que você é o Felipe ...
+
+00:04:01.698 --> 00:04:15.119
+Guimarães e você precisa sempre tratar as pessoas bem.
+
+00:04:15.680 --> 00:04:18.941
+Então, vamos salvar,
+
+00:04:18.941 --> 00:04:24.919
+vamos limpar aqui e vamos fazer de novo.
+
+00:04:25.560 --> 00:04:28.090
+Esse chatzinho aqui do lado é bom para você ir testando o ...
+
+00:04:28.090 --> 00:04:29.520
+seu prompt, vendo se ele tá bom.
+
+00:04:40.000 --> 00:04:49.200
+Ah, também é bom.
+
+00:04:49.280 --> 00:04:58.200
+Todas as perguntas.
+
+00:04:58.240 --> 00:04:59.452
+Então, você tá vendo que eu tô ...
+
+00:04:59.452 --> 00:05:01.119
+evoluindo ali minha inteligência, né?
+
+00:05:01.720 --> 00:05:02.271
+Tipo, ah,
+
+00:05:02.271 --> 00:05:04.819
+eu tô começando a pegar e entender o que que eu ...
+
+00:05:04.819 --> 00:05:06.678
+preciso melhorar no meu prompt.
+
+00:05:12.800 --> 00:05:13.760
+Tudo ótimo, e você,
+
+00:05:13.760 --> 00:05:15.080
+como eu posso ajudar hoje?
+
+00:05:15.840 --> 00:05:28.080
+E aí eu vou explicar o que Você faz consultoria de AI?
+
+00:05:28.120 --> 00:05:31.480
+Sim, fazemos.
+
+00:05:31.520 --> 00:05:35.040
+E aí ele ainda mandou o link para marcar a reunião.
+
+00:05:36.360 --> 00:05:37.640
+E aí foi certinho aí.
+
+00:05:39.240 --> 00:05:40.420
+Que legal. Então,
+
+00:05:40.420 --> 00:05:43.569
+como vocês viram, aqui ele já tá funcionando e aí ...
+
+00:05:43.569 --> 00:05:47.269
+a gente vai melhorando a nossa inteligência artificial ...
+
+00:05:47.269 --> 00:05:49.158
+bem baseada no nosso prompt.
+
+00:05:49.680 --> 00:05:51.948
+Antes só de finalizar essa aula aqui,
+
+00:05:51.948 --> 00:05:54.948
+eu acho que também é legal vocês entenderem que se ...
+
+00:05:54.948 --> 00:05:56.850
+vocês forem aqui nos settings,
+
+00:05:56.850 --> 00:05:59.777
+dá pra gente ver quais são as mensagens que foram ...
+
+00:05:59.777 --> 00:06:03.143
+trocadas aqui pelo Flowwise, dá pra gente ver qual foi o ...
+
+00:06:03.143 --> 00:06:05.265
+histórico, tem uma opção que dá pra ...
+
+00:06:05.265 --> 00:06:08.997
+você capturar a lead, então é uma ferramenta muito poderosa.
+
+00:06:10.480 --> 00:06:12.249
+Eu, particularmente,
+
+00:06:12.249 --> 00:06:16.439
+eu gosto de configurar outras coisas que vão além, né?
+
+00:06:16.720 --> 00:06:19.538
+Dá pra colocar split para texto,
+
+00:06:19.538 --> 00:06:22.461
+se caso eu quiser mandar áudio aí,
+
+00:06:22.461 --> 00:06:25.801
+também é bem legal, mas eu gosto do chat ...
+
+00:06:25.801 --> 00:06:29.246
+feedback, pra quando eu uso a interface ...
+
+00:06:29.246 --> 00:06:31.647
+web, e eu gosto também desse ...
+
+00:06:31.647 --> 00:06:33.317
+Analyze Chat Flow.
+
+00:06:34.040 --> 00:06:37.468
+Dá para subir no Rail aí, igual a gente fez com os ...
+
+00:06:37.468 --> 00:06:39.226
+outros, esse LangFuse,
+
+00:06:39.226 --> 00:06:42.830
+que dá para a gente ver o quanto o nosso prompt está ...
+
+00:06:42.830 --> 00:06:45.643
+custando, o quanto está consumindo de ...
+
+00:06:45.643 --> 00:06:49.598
+inteligência oficial, quanto a gente está gastando.
+
+00:06:50.120 --> 00:06:53.455
+Tem bastante coisinha aqui que vale a pena a gente ...
+
+00:06:53.455 --> 00:06:54.919
+configurar e captar.
+
+00:06:55.360 --> 00:06:57.233
+Então, na próxima aula,
+
+00:06:57.233 --> 00:07:01.167
+a gente vai ver como juntar o FlowWise com o TypeBot ...
+
+00:07:01.167 --> 00:07:02.759
+com o Evolution API.
+
+00:07:02.800 --> 00:07:04.402
+Gente, está acabando,
+
+00:07:04.402 --> 00:07:05.919
+não fugam de mim, viu?
+
+00:07:05.920 --> 00:07:08.074
+Então, vamos aí para a última ...
+
+00:07:08.074 --> 00:07:09.959
+rodada, eu acho. Eu acho.
+
+00:07:11.400 --> 00:07:12.680
+Se for tudo, é tudo.
+
+00:07:13.840 --> 00:07:15.000
+Vejo vocês na próxima aula.
+

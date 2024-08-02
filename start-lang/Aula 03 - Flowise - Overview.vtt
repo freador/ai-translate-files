@@ -1,0 +1,557 @@
+WEBVTT
+
+00:00:00.320 --> 00:00:01.054
+Bom, time,
+
+00:00:01.054 --> 00:00:03.256
+antes da gente fazer o nosso MVP,
+
+00:00:03.256 --> 00:00:06.192
+a gente vai precisar conhecer, pelo menos,
+
+00:00:06.192 --> 00:00:08.965
+minimamente, as ferramentas que a gente ...
+
+00:00:08.965 --> 00:00:10.678
+vai utilizar no projeto.
+
+00:00:11.400 --> 00:00:14.332
+Então, para todo mundo que fez já ...
+
+00:00:14.332 --> 00:00:18.568
+os primeiros passos, entrar aí no AITOP Watts e ...
+
+00:00:18.568 --> 00:00:23.564
+vir aqui no Full Eyes e clicar no botão do Rail aí para ter ...
+
+00:00:23.564 --> 00:00:25.519
+acesso à plataforma.
+
+00:00:27.200 --> 00:00:28.379
+Eu hoje, olha só,
+
+00:00:28.379 --> 00:00:32.253
+eu vou usar o meu que já está um pouquinho mais populado,
+
+00:00:32.253 --> 00:00:35.790
+que aí dá para vocês terem uma ideia melhor do que dá ...
+
+00:00:35.790 --> 00:00:39.159
+para fazer, o que não dá aqui dentro do Flowwise.
+
+00:00:39.200 --> 00:00:44.198
+Então eu vou fechar o que eu fiz igualzinho de vocês para ...
+
+00:00:44.198 --> 00:00:46.479
+vir aqui no meu Flowwise.
+
+00:00:46.480 --> 00:00:49.506
+Eu gosto bastante de usar o modo Dark,
+
+00:00:49.506 --> 00:00:52.239
+então só vir aqui em cima e ativar.
+
+00:00:53.080 --> 00:00:56.600
+A gente tem a opção de fazer as configurações aí.
+
+00:00:57.520 --> 00:01:00.654
+E aqui tem os meus chat flows e também meus agente ...
+
+00:01:00.654 --> 00:01:02.847
+flows, que dá para você trabalhar ...
+
+00:01:02.847 --> 00:01:05.119
+com agente múltiplos aqui dentro.
+
+00:01:05.320 --> 00:01:06.520
+É bem legal, tá bom?
+
+00:01:07.160 --> 00:01:09.520
+Dá para você configurar os assistentes e tudo mais.
+
+00:01:10.040 --> 00:01:13.982
+Para ser mais prático, eu acho que eu vou começar ...
+
+00:01:13.982 --> 00:01:15.559
+de baixo para cima.
+
+00:01:16.360 --> 00:01:18.678
+porque assim dá para a gente ver melhor como funciona,
+
+00:01:18.678 --> 00:01:20.739
+que a gente vai acabar focando mais no Chat Fruz,
+
+00:01:20.739 --> 00:01:22.078
+que é o que a gente vai utilizar.
+
+00:01:22.520 --> 00:01:23.880
+Mas daria para usar os outros também.
+
+00:01:24.720 --> 00:01:27.748
+Então, se você precisa colocar ...
+
+00:01:27.748 --> 00:01:31.359
+alguns documentos aqui, é possível.
+
+00:01:31.360 --> 00:01:34.026
+Você coloca os arquivos aqui, ele fica como um ...
+
+00:01:34.026 --> 00:01:35.639
+armazenamento para vocês.
+
+00:01:36.360 --> 00:01:38.920
+Dá para configurar todas as APIs Keys aqui.
+
+00:01:38.960 --> 00:01:41.309
+Então, tem algumas que eu acabo ...
+
+00:01:41.309 --> 00:01:46.639
+utilizando e você só vem aqui, cria uma nova Key e deixa ela adicionada.
+
+00:01:47.240 --> 00:01:49.710
+Isso serve para você utilizar, às vezes,
+
+00:01:49.710 --> 00:01:51.599
+dentro do no próprio Flowwise.
+
+00:01:52.320 --> 00:01:55.393
+Tem as variáveis Aliás, até a corrigindo aqui,
+
+00:01:55.393 --> 00:01:58.624
+essas keys também são possíveis para quando você ...
+
+00:01:58.624 --> 00:02:00.279
+vai compartilhar um bot.
+
+00:02:01.080 --> 00:02:02.618
+Então, dá para você colocar uma ...
+
+00:02:02.618 --> 00:02:04.451
+chave específica para, por exemplo,
+
+00:02:04.451 --> 00:02:05.279
+acessar via API.
+
+00:02:06.720 --> 00:02:10.999
+Tem toda a parte de variáveis que dá para você setar no ...
+
+00:02:10.999 --> 00:02:15.959
+sistema e depois chamar durante os seus agentes ou seus bots.
+
+00:02:16.720 --> 00:02:21.291
+As partes de credenciais, então se você usa OpenAI,
+
+00:02:21.291 --> 00:02:22.460
+Redis, Push,
+
+00:02:22.460 --> 00:02:25.011
+SupaBase, o que você quiser,
+
+00:02:25.011 --> 00:02:29.582
+dá pra você colocar uma credencial com um software,
+
+00:02:29.582 --> 00:02:32.558
+um vendor aqui, tá bom? É bem útil.
+
+00:02:33.880 --> 00:02:36.040
+Até hoje eu nunca usei essa tab aqui, tá?
+
+00:02:36.360 --> 00:02:37.400
+Sempre fui pelo outro.
+
+00:02:38.320 --> 00:02:42.194
+Dá para você configurar também assistentes,
+
+00:02:42.194 --> 00:02:46.883
+então dá para você vir aqui e colocar um assistente para ...
+
+00:02:46.883 --> 00:02:49.737
+ele responder, baseado em alguma ...
+
+00:02:49.737 --> 00:02:55.038
+assistente que você já tenha criado com informações prévias.
+
+00:02:55.480 --> 00:02:57.834
+Isso daqui facilita para quando você,
+
+00:02:57.834 --> 00:03:00.188
+por exemplo, vai utilizar os próprios ...
+
+00:03:00.188 --> 00:03:03.131
+assistentes do OpenAI, já deixa lá os dados tudo ...
+
+00:03:03.131 --> 00:03:04.970
+treinados e só chama ele aqui,
+
+00:03:04.970 --> 00:03:07.398
+acaba facilitando um pouco o trabalho.
+
+00:03:08.200 --> 00:03:11.880
+apesar de eu não utilizar, tá bom?
+
+00:03:12.560 --> 00:03:15.795
+Ferramentas, isso daqui eu acho legal,
+
+00:03:15.795 --> 00:03:19.226
+porque dá para você criar uma ferramenta,
+
+00:03:19.226 --> 00:03:22.657
+obviamente, mas daria para você colocar,
+
+00:03:22.657 --> 00:03:25.794
+por exemplo, uma função de JavaScript ...
+
+00:03:25.794 --> 00:03:27.068
+para, às vezes,
+
+00:03:27.068 --> 00:03:30.205
+acessar um site, trazer um resultado,
+
+00:03:30.205 --> 00:03:32.459
+rodar, algum tipo de função ...
+
+00:03:32.459 --> 00:03:35.008
+específica, fazer um scraper,
+
+00:03:35.008 --> 00:03:37.557
+fazer uma parte automatizada.
+
+00:03:37.560 --> 00:03:39.195
+Então é igual, por exemplo,
+
+00:03:39.195 --> 00:03:41.683
+imagina assim, eu Felipe Guimarães sou um ...
+
+00:03:41.683 --> 00:03:43.531
+humano e eu dou uma ferramenta,
+
+00:03:43.531 --> 00:03:45.237
+sei lá, um computador é muito ...
+
+00:03:45.237 --> 00:03:47.157
+genérico, mas uma calculadora.
+
+00:03:47.200 --> 00:03:51.300
+Então eu conseguiria usar essa calculadora para fazer ...
+
+00:03:51.300 --> 00:03:53.439
+minhas atividades X e Y zero.
+
+00:03:53.960 --> 00:03:55.200
+É a mesma coisa, bem legal.
+
+00:03:56.040 --> 00:03:59.229
+Apesar de eu nunca ter utilizado aqui,
+
+00:03:59.229 --> 00:04:01.919
+eu já utilizei direto no código.
+
+00:04:02.880 --> 00:04:05.360
+Marketplace, aqui tem um negócio bem ...
+
+00:04:05.360 --> 00:04:08.080
+legal pra vocês, que é um dos jeitos que eu ...
+
+00:04:08.080 --> 00:04:10.800
+acabei aprendendo bastante o Whatsapp,
+
+00:04:10.800 --> 00:04:14.880
+o Flowwise foi por aqui, nessa parte de Marketplace. Por quê?
+
+00:04:16.440 --> 00:04:19.316
+Ele tem esses Marketplaces onde você consegue ver ...
+
+00:04:19.316 --> 00:04:20.959
+modelos que eles já fizeram.
+
+00:04:21.480 --> 00:04:24.412
+Então alguém já foi lá, já fez um Q&A junto com a ...
+
+00:04:24.412 --> 00:04:25.724
+Cloud, por exemplo,
+
+00:04:25.724 --> 00:04:26.958
+que é da Anthropic.
+
+00:04:27.800 --> 00:04:30.783
+Então você já tem vários modelos prontos que você ...
+
+00:04:30.783 --> 00:04:33.839
+consegue entender como funciona o negócio, sabe?
+
+00:04:33.880 --> 00:04:35.000
+É bem legal.
+
+00:04:36.440 --> 00:04:38.835
+Fora isso tem os fluxos de agentes,
+
+00:04:38.835 --> 00:04:42.304
+o que eu acho bem legal, eu comecei a usar agente não ...
+
+00:04:42.304 --> 00:04:44.699
+com um propósito igual eu fiz aqui,
+
+00:04:44.699 --> 00:04:46.764
+tipo, os agentes que eu uso são ...
+
+00:04:46.764 --> 00:04:49.903
+basicamente para um agente para gerar texto,
+
+00:04:49.903 --> 00:04:52.959
+para gerar imagem, para fazer uma pesquisa,
+
+00:04:52.959 --> 00:04:55.850
+mas ele é para você montar por aqui também,
+
+00:04:55.850 --> 00:04:57.915
+não vai ser o foco desse curso.
+
+00:04:59.080 --> 00:05:01.442
+mas dá para você configurar, tipo,
+
+00:05:01.442 --> 00:05:05.270
+vai ser um agente de chat que vai ter um supervisor que vai ...
+
+00:05:05.270 --> 00:05:07.795
+comandar o time de um product design,
+
+00:05:07.795 --> 00:05:12.519
+um developer e um technical write para escrever sobre um aplicativo.
+
+00:05:12.560 --> 00:05:15.241
+Então, eu venho aqui e falo,
+
+00:05:15.241 --> 00:05:19.087
+por exemplo, deixa eu colocar meu rosto ...
+
+00:05:19.087 --> 00:05:20.719
+aqui para o lado.
+
+00:05:21.440 --> 00:05:26.360
+Build a to-do list.
+
+00:05:28.240 --> 00:05:31.692
+Então você vai ver que o supervisor vai entrar,
+
+00:05:31.692 --> 00:05:35.144
+vai fazer a solicitação, o product vai chamar a ...
+
+00:05:35.144 --> 00:05:38.242
+pessoa correta, a inteligência correta,
+
+00:05:38.242 --> 00:05:41.517
+e ele vai montar um product design pra gente,
+
+00:05:41.517 --> 00:05:42.667
+falando, olha,
+
+00:05:42.667 --> 00:05:46.119
+pra montar um todo app, eu preciso disso daqui.
+
+00:05:46.440 --> 00:05:47.760
+Ele vai lá, vai listar.
+
+00:05:47.760 --> 00:05:50.480
+Aí ele vai chamar um desenvolvedor,
+
+00:05:50.480 --> 00:05:54.288
+que vai desenvolver, e ele vai chamar um technical ...
+
+00:05:54.288 --> 00:05:55.920
+writer que vai fazer.
+
+00:05:58.960 --> 00:05:59.400
+É legal?
+
+00:06:00.400 --> 00:06:03.377
+Mas para o desenvolvimento de um app,
+
+00:06:03.377 --> 00:06:05.970
+hoje tem ferramentas melhores,
+
+00:06:05.970 --> 00:06:09.332
+até como o Waiter, que faz algo que você vai ...
+
+00:06:09.332 --> 00:06:13.078
+fazendo um pouco do papel do supervisor, sabe?
+
+00:06:13.840 --> 00:06:15.120
+Mas é legal também.
+
+00:06:15.320 --> 00:06:18.278
+Vou deixar ele aí executando, enquanto a gente vai para o ...
+
+00:06:18.278 --> 00:06:19.159
+que a gente quer.
+
+00:06:19.200 --> 00:06:22.252
+O Chat Flow, como vocês podem ver aqui,
+
+00:06:22.252 --> 00:06:24.159
+tem bastante coisinha.
+
+00:06:24.160 --> 00:06:26.546
+Então, dá para a gente fazer desde ...
+
+00:06:26.546 --> 00:06:29.444
+um chatbot que lê o site, como eu fiz aqui,
+
+00:06:29.444 --> 00:06:33.365
+eu acho que inclusive talvez seja um exemplo que a gente ...
+
+00:06:33.365 --> 00:06:35.751
+vai utilizar, eu não vou ir para um ...
+
+00:06:35.751 --> 00:06:38.223
+caminho de Notion junto com vocês,
+
+00:06:38.223 --> 00:06:41.803
+porque eu acho que o nível de complexidade não é tão ...
+
+00:06:41.803 --> 00:06:44.189
+grande e tipo os resultados não é,
+
+00:06:44.189 --> 00:06:47.343
+mas isso aqui é por exemplo ele lendo um site,
+
+00:06:47.343 --> 00:06:50.923
+Daria pra gente montar um chatbot lendo um banco de ...
+
+00:06:50.923 --> 00:06:52.116
+dados do Notion.
+
+00:06:53.360 --> 00:06:55.612
+O que muda é a fonte de leitura de dados,
+
+00:06:55.612 --> 00:06:56.879
+não muda muita coisa.
+
+00:06:56.880 --> 00:06:59.501
+Então acho que talvez a gente vai seguir por um ...
+
+00:06:59.501 --> 00:07:01.156
+caminho de ler um documento,
+
+00:07:01.156 --> 00:07:03.915
+alguma coisa assim, pra ser mais fácil pra vocês ...
+
+00:07:03.915 --> 00:07:06.950
+executarem e depois ir evoluindo pra essas próximas ...
+
+00:07:06.950 --> 00:07:08.398
+fases de mais complexos.
+
+00:07:09.160 --> 00:07:10.468
+Mas se a gente pega, por exemplo,
+
+00:07:10.468 --> 00:07:12.454
+esse exemplo do Notion, esse foi o primeiro que eu ...
+
+00:07:12.454 --> 00:07:13.519
+conectei no meu WhatsApp.
+
+00:07:14.000 --> 00:07:16.463
+Foi bem legal, ele marcou uma reunião pra ...
+
+00:07:16.463 --> 00:07:17.839
+mim automaticamente.
+
+00:07:18.880 --> 00:07:22.215
+Mas aqui a gente configura as chaves do OpenAI,
+
+00:07:22.215 --> 00:07:24.780
+a gente configura um banco de dados,
+
+00:07:24.780 --> 00:07:28.371
+que ele vai basicamente esse banco de dados aqui é o ...
+
+00:07:28.371 --> 00:07:30.508
+vetor, então ele vai ler essas ...
+
+00:07:30.508 --> 00:07:33.757
+informações e colocar dentro do meu sistema.
+
+00:07:33.800 --> 00:07:36.652
+Então quando eu venho aqui no chat,
+
+00:07:36.652 --> 00:07:40.192
+por exemplo, eu consigo perguntar pra ele,
+
+00:07:40.192 --> 00:07:42.159
+por exemplo, O que é SEO?
+
+00:07:42.200 --> 00:07:44.864
+Eu tenho na minha lista de serviços,
+
+00:07:44.864 --> 00:07:47.439
+que eu já montei, essa informação.
+
+00:07:47.480 --> 00:07:48.742
+Então, ele falou ali,
+
+00:07:48.742 --> 00:07:50.495
+ah, SEO é a prática de otimizar ...
+
+00:07:50.495 --> 00:07:52.038
+no site para melhorar, né?
+
+00:07:52.040 --> 00:07:54.560
+Se precisar de mais detalhes ou desejar marcar uma ...
+
+00:07:54.560 --> 00:07:55.760
+reunião, tá aqui o link.
+
+00:07:56.560 --> 00:07:57.432
+Então, é animal,
+
+00:07:57.432 --> 00:07:59.739
+ele respondia exatamente isso no WhatsApp,
+
+00:07:59.739 --> 00:08:01.360
+quando o pessoal clicava aqui,
+
+00:08:01.360 --> 00:08:02.918
+ele marcava a reunião comigo.
+
+00:08:05.960 --> 00:08:09.716
+Isso é o que a gente quer fazer aqui e o que a gente vai ...
+
+00:08:09.716 --> 00:08:12.667
+fazer juntos, mas tem vários cenários,
+
+00:08:12.667 --> 00:08:15.171
+o bom é que é tudo clique e arrasta,
+
+00:08:15.171 --> 00:08:19.374
+então vai ser fácil para vocês fazerem essa brincadeira ...
+
+00:08:19.374 --> 00:08:20.357
+aqui, tá bom?
+
+00:08:20.520 --> 00:08:24.886
+Eu acho que como o overview do Flowwise é isso,
+
+00:08:24.886 --> 00:08:29.712
+na próxima aula a gente vai ter um overview junto do ...
+
+00:08:29.712 --> 00:08:34.538
+Typebot com o Evolution API, e aí a gente já pode até ...
+
+00:08:34.538 --> 00:08:39.593
+aproveitar e fazer já a configuração do Fluorize com ...
+
+00:08:39.593 --> 00:08:42.695
+o Typebot, porque é o máximo que a ...
+
+00:08:42.695 --> 00:08:44.878
+gente precisa, tá bom?
+
+00:08:45.400 --> 00:08:46.520
+Então vamos nessa, gente.
+
+00:08:46.560 --> 00:08:47.720
+Até a próxima aula.
+
+00:08:48.320 --> 00:08:49.880
+E tá esquentando, tá ficando melhor.
+

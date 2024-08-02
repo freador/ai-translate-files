@@ -1,0 +1,305 @@
+WEBVTT
+
+00:00:00.760 --> 00:00:01.672
+Bom, pessoal,
+
+00:00:01.672 --> 00:00:05.092
+vamos para a última etapa dos overviews antes da gente ...
+
+00:00:05.092 --> 00:00:09.120
+começar o nosso projeto, que é essa parte do Evolution API aqui.
+
+00:00:09.440 --> 00:00:11.000
+Opa, um pouco apulado.
+
+00:00:11.040 --> 00:00:16.520
+Aqui a gente consegue acessar e vamos clicar no link.
+
+00:00:16.760 --> 00:00:22.920
+A gente vai em Settings, a gente copia ele aqui e pum.
+
+00:00:22.920 --> 00:00:26.160
+E aí a gente coloca no Manager.
+
+00:00:26.200 --> 00:00:28.920
+Aqui a gente já acessa o nosso Evolution API.
+
+00:00:30.560 --> 00:00:33.834
+Aqui a ferramenta é bem tranquilinha de mexer,
+
+00:00:33.834 --> 00:00:36.772
+dá pra configurar ali né, voltar pra aqui,
+
+00:00:36.772 --> 00:00:38.199
+colocar o Dark Mode.
+
+00:00:39.080 --> 00:00:42.558
+e no final das contas o que a gente vai precisar fazer aqui é ...
+
+00:00:42.558 --> 00:00:44.079
+criar uma nova extensão.
+
+00:00:44.120 --> 00:00:48.320
+A nova extensão vai ser pirowatts.
+
+00:00:48.760 --> 00:00:52.240
+A integração vai ser usando esse bailes.
+
+00:00:52.240 --> 00:00:57.240
+E a API key deixa eu só salvar isso daqui em outro lugar.
+
+00:00:57.360 --> 00:00:59.720
+Salvem também quando vocês forem fazer por aí.
+
+00:01:00.120 --> 00:01:01.680
+E aí a gente está pronto para salvar.
+
+00:01:03.280 --> 00:01:06.382
+Bom, a primeira visão que a gente ...
+
+00:01:06.382 --> 00:01:10.519
+vê o nosso número configurado é essa daqui.
+
+00:01:10.520 --> 00:01:12.880
+Então tem ali o birofone e tudo mais.
+
+00:01:13.400 --> 00:01:16.609
+O segundo passo que a gente vai ter que fazer é selecionar ...
+
+00:01:16.609 --> 00:01:18.999
+o WhatsApp que a gente deseja configurar.
+
+00:01:19.880 --> 00:01:26.280
+Eu vou querer utilizar o meu WhatsApp corporativo que eu tenho aqui.
+
+00:01:26.320 --> 00:01:29.640
+Então, acho que é o jeito mais legalzinho.
+
+00:01:29.680 --> 00:01:30.984
+Então, tô vindo aqui,
+
+00:01:30.984 --> 00:01:34.316
+apontando o celular pra tela do computador e vai gerar o ...
+
+00:01:34.316 --> 00:01:36.199
+QR Code igual é no WhatsApp Web.
+
+00:01:37.280 --> 00:01:39.800
+Vamos só aguardar, se tudo der certo.
+
+00:01:40.640 --> 00:01:42.933
+Gerou, estou apontando aqui para o ...
+
+00:01:42.933 --> 00:01:47.679
+meu celular e só está pedindo para me colocar o nome aqui, Evolution API.
+
+00:01:48.280 --> 00:01:49.920
+Bom, salvei.
+
+00:01:51.360 --> 00:01:54.059
+Pantin, para mim o dispositivo já está ...
+
+00:01:54.059 --> 00:01:55.239
+conectado aqui.
+
+00:01:55.240 --> 00:01:57.240
+Está ativo, inclusive.
+
+00:01:57.240 --> 00:02:00.040
+E a gente pode só atualizar a página aqui,
+
+00:02:00.040 --> 00:02:04.159
+que teoricamente já vai trazer ele configurado, já trouxe.
+
+00:02:05.160 --> 00:02:06.525
+Minha fotinha, o número,
+
+00:02:06.525 --> 00:02:08.280
+para vocês me darem um WhatsApp.
+
+00:02:09.320 --> 00:02:11.080
+E qual é o legal aqui?
+
+00:02:11.280 --> 00:02:12.995
+Você consegue, por exemplo,
+
+00:02:12.995 --> 00:02:14.639
+colocar um comportamento.
+
+00:02:14.680 --> 00:02:16.595
+Então, eu posso marcar todas as ...
+
+00:02:16.595 --> 00:02:19.616
+mensagens como lida, porque ele vai basicamente ...
+
+00:02:19.616 --> 00:02:23.079
+toda a mensagem que passar vai passar por esse servidor.
+
+00:02:23.120 --> 00:02:24.608
+Então, se você recebe muita ...
+
+00:02:24.608 --> 00:02:26.679
+mensagem, se prepara para o servidor.
+
+00:02:27.120 --> 00:02:29.165
+Daria para você configurar um webhook aqui,
+
+00:02:29.165 --> 00:02:30.159
+baseado nos eventos.
+
+00:02:30.800 --> 00:02:33.520
+O que é bem legal, né?
+
+00:02:34.360 --> 00:02:37.200
+Se você precisa disso.
+
+00:02:37.480 --> 00:02:39.663
+Mas nós, como a gente já criou lá o bot,
+
+00:02:39.663 --> 00:02:42.199
+a gente já vai até fazer essa configuração.
+
+00:02:42.880 --> 00:02:49.360
+A gente aqui só vai colocar esse evento aqui do type bot.
+
+00:02:49.400 --> 00:02:54.400
+A gente vai configurar ele pra bater na nossa URL aqui.
+
+00:02:54.440 --> 00:02:55.880
+Então a gente copia esse carinha aqui.
+
+00:03:01.640 --> 00:03:04.859
+Tira essa parte, coloca o nome da fucsia aqui ...
+
+00:03:04.859 --> 00:03:07.730
+embaixo, palavra de finalização que eu ...
+
+00:03:07.730 --> 00:03:09.644
+gosto de ter, que é um site,
+
+00:03:09.644 --> 00:03:12.602
+por exemplo, e ouvir todas as mensagens e ...
+
+00:03:12.602 --> 00:03:14.516
+colocar como habilitado.
+
+00:03:14.880 --> 00:03:20.160
+Só isso já configura o seu bot aqui com o WhatsApp.
+
+00:03:20.200 --> 00:03:21.520
+Vamos clicar no botão salvar.
+
+00:03:22.160 --> 00:03:24.091
+Então, teoricamente,
+
+00:03:24.091 --> 00:03:27.343
+mas quando alguém me mandar mensagem,
+
+00:03:27.343 --> 00:03:30.290
+ele vai receber esse Olá, tudo bem,
+
+00:03:30.290 --> 00:03:32.119
+e vai entrar no fluxo.
+
+00:03:32.720 --> 00:03:34.964
+Simples assim, o Evolution API,
+
+00:03:34.964 --> 00:03:38.039
+ele é bem tranquilinho de configurar mesmo.
+
+00:03:39.160 --> 00:03:40.456
+Então, gente,
+
+00:03:40.456 --> 00:03:44.777
+com isso daqui configurado, a gente pode ir lá no ...
+
+00:03:44.777 --> 00:03:48.558
+WhatsApp e começar a trocar já a mensagem.
+
+00:03:49.400 --> 00:03:51.713
+As outras coisas que tem aqui,
+
+00:03:51.713 --> 00:03:55.599
+tipo mensagem, eu particularmente não uso muito.
+
+00:03:55.800 --> 00:03:59.000
+Quer pra você enviar mensagem pra um contato ...
+
+00:03:59.000 --> 00:04:01.335
+seu, mandar mensagem pra grupo,
+
+00:04:01.335 --> 00:04:02.719
+esse tipo de coisa.
+
+00:04:02.960 --> 00:04:05.939
+Eu particularmente não uso bastante,
+
+00:04:05.939 --> 00:04:08.639
+uso quase nada pra falar a verdade.
+
+00:04:09.200 --> 00:04:13.000
+mas daria para você trocar algumas informações básicas ...
+
+00:04:13.000 --> 00:04:15.183
+igual você pode no WhatsApp Web,
+
+00:04:15.183 --> 00:04:16.638
+mas esse não é o ponto.
+
+00:04:16.760 --> 00:04:19.041
+Como a gente viu aqui a configuração,
+
+00:04:19.041 --> 00:04:22.131
+depois que você foi lá, foi no botão compartilhar,
+
+00:04:22.131 --> 00:04:24.265
+copiou o URL, copiou o nome do chat e ...
+
+00:04:24.265 --> 00:04:26.399
+configurou aqui no Evolution API,
+
+00:04:26.399 --> 00:04:29.416
+se a gente for aqui no chat, eu até acabei testando ...
+
+00:04:29.416 --> 00:04:31.771
+também já de uma maneira mais simples,
+
+00:04:31.771 --> 00:04:34.126
+a gente já pode ver que ele já está aqui,
+
+00:04:34.126 --> 00:04:35.597
+já está entrando, sabe?
+
+00:04:37.240 --> 00:04:38.040
+Teste, por exemplo.
+
+00:04:39.200 --> 00:04:43.520
+Ele já vai lá e mandou lá tudo bem.
+
+00:04:44.120 --> 00:04:47.280
+Eu mando qualquer coisa e ele vai responder.
+
+00:04:47.480 --> 00:04:50.168
+Até que pra cima ele tava já respondendo conforme a ...
+
+00:04:50.168 --> 00:04:51.960
+minha inteligência artificial.
+
+00:04:52.520 --> 00:04:56.212
+Então, essa eu acho que fecha a ...
+
+00:04:56.212 --> 00:04:58.279
+nossa overview.
+
+00:04:59.320 --> 00:05:02.145
+E aí agora a gente vai pra próxima aula que já é a ...
+
+00:05:02.145 --> 00:05:04.301
+implementação mesmo do nosso MVP.
+
+00:05:04.301 --> 00:05:05.193
+Tá bom, gente?
+
+00:05:05.193 --> 00:05:06.159
+Vamos com tudo.
+

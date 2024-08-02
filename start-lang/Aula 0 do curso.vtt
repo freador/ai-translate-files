@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00:01.600 --> 00:00:03.640
+Fala aí, pessoal.  Tudo bem?
+
+00:00:04.080 --> 00:00:07.468
+Sejam bem-vindos a esse curso de WhatsApp com ...
+
+00:00:07.468 --> 00:00:09.519
+Inteligência Artificial.
+
+00:00:09.960 --> 00:00:12.897
+Aqui eu vou ajudar vocês desde o zero,
+
+00:00:12.897 --> 00:00:16.308
+do passo zero, a como subir essa aplicação e ...
+
+00:00:16.308 --> 00:00:19.434
+depois implementar, até colocar no ar,
+
+00:00:19.434 --> 00:00:21.518
+essa solução de WhatsApp.
+
+00:00:22.360 --> 00:00:26.640
+Antes de começar o curso, eu quero me apresentar para vocês.
+
+00:00:26.680 --> 00:00:28.120
+Eu me chamo Felipe Guimarães.
+
+00:00:28.120 --> 00:00:29.455
+O pessoal me chama como Birubiru,
+
+00:00:29.455 --> 00:00:30.599
+por causa dos cabelinhos aí.
+
+00:00:31.560 --> 00:00:36.360
+E eu trabalho há mais de 12 anos com experiências digitais.
+
+00:00:37.080 --> 00:00:40.195
+Venho me especializando durante esses últimos oito ...
+
+00:00:40.195 --> 00:00:42.319
+meses em inteligência artificial.
+
+00:00:42.360 --> 00:00:45.250
+E é a partir daqui que eu quero ajudar vocês a criar ...
+
+00:00:45.250 --> 00:00:47.999
+essas soluções para o negócio de vocês, tá bom?
+
+00:00:48.000 --> 00:00:49.800
+Então vamos começar aqui.
+
+00:00:50.200 --> 00:00:53.548
+Nosso objetivo nesse curso Fazer uma jornada ...
+
+00:00:53.548 --> 00:00:57.865
+conversacional utilizando o WhatsApp mais inteligência ...
+
+00:00:57.865 --> 00:01:00.244
+artificial, usando o Full Eyes,
+
+00:01:00.244 --> 00:01:02.799
+usando o Typebot e o Evolution API.
+
+00:01:03.800 --> 00:01:06.601
+Se vocês quiserem me seguir nas redes que estão ali do ...
+
+00:01:06.601 --> 00:01:08.384
+lado, posto bastante coisa legal ...
+
+00:01:08.384 --> 00:01:10.421
+sobre inteligência, sobre software,
+
+00:01:10.421 --> 00:01:11.758
+espero que vocês gostem.
+
+00:01:14.000 --> 00:01:15.852
+Aqui nesse curso, a gente vai,
+
+00:01:15.852 --> 00:01:18.446
+basicamente, ter alguns casos de uso que a ...
+
+00:01:18.446 --> 00:01:21.558
+gente vai conseguir aplicar, como aprendizagem.
+
+00:01:21.560 --> 00:01:23.988
+Então, aprendizagem em dúvidas,
+
+00:01:23.988 --> 00:01:26.763
+eles entram bastante na parte de Poxa,
+
+00:01:26.763 --> 00:01:30.145
+eu tenho uma documentação aqui dentro da minha ...
+
+00:01:30.145 --> 00:01:32.399
+empresa, dentro da minha área.
+
+00:01:32.800 --> 00:01:34.977
+Quero fazer com que as pessoas não precisem mais ...
+
+00:01:34.977 --> 00:01:36.719
+perguntar para mim ou acessem um site.
+
+00:01:36.760 --> 00:01:41.012
+Elas perguntam para o meu bot e ele vai responder já ...
+
+00:01:41.012 --> 00:01:43.239
+sobre o suporte no nível 1.
+
+00:01:43.240 --> 00:01:45.368
+E o atendimento e vendas é, poxa,
+
+00:01:45.368 --> 00:01:48.599
+eu tenho aqui todos os meus produtos já escritos.
+
+00:01:49.080 --> 00:01:51.912
+Eu vou deixar essa base pronta para as pessoas ...
+
+00:01:51.912 --> 00:01:54.818
+conseguirem conversar comigo pelo WhatsApp e ...
+
+00:01:54.818 --> 00:01:58.171
+marcar uma reunião comigo sem eu ter o esforço de ficar ...
+
+00:01:58.171 --> 00:01:59.438
+trocando mensagem.
+
+00:01:59.960 --> 00:02:03.146
+Isso é muito bom para quando a gente tem uma ...
+
+00:02:03.146 --> 00:02:07.879
+escala muito grande de pessoas entrando em contato e falando.
+
+00:02:08.360 --> 00:02:12.849
+Nesse curso, a gente vai utilizar o Railway ...
+
+00:02:12.849 --> 00:02:14.719
+Por que o Railway?
+
+00:02:14.960 --> 00:02:18.378
+Como a gente vai fazer coisas com o objetivo não é subir ...
+
+00:02:18.378 --> 00:02:19.669
+servidor, máquina,
+
+00:02:19.669 --> 00:02:22.479
+então o Railway cumpre muito bem esse papel.
+
+00:02:22.520 --> 00:02:24.909
+É fácil, vocês vão ver que em pouco ...
+
+00:02:24.909 --> 00:02:29.005
+tempo a gente vai conseguir subir essas três soluções que ...
+
+00:02:29.005 --> 00:02:30.199
+a gente precisa.
+
+00:02:30.840 --> 00:02:33.849
+o Flowwise, que ele serve para fazer ...
+
+00:02:33.849 --> 00:02:36.958
+inteligência artificial com o code,
+
+00:02:36.958 --> 00:02:39.967
+o Typebot, que ele serve para a gente ...
+
+00:02:39.967 --> 00:02:43.277
+fazer nossos fluxos conversacionais,
+
+00:02:43.277 --> 00:02:46.085
+é open source, também é gratuito,
+
+00:02:46.085 --> 00:02:49.395
+e o Evolution API, que é basicamente uma ...
+
+00:02:49.395 --> 00:02:53.508
+ferramenta que transforma o WhatsApp web em API,
+
+00:02:53.508 --> 00:02:57.922
+assim a gente consegue utilizar o WhatsApp dentro do ...
+
+00:02:57.922 --> 00:03:02.235
+nosso Typebot ali e com a inteligência artificial.
+
+00:03:02.840 --> 00:03:05.641
+O Notion eu utilizei para a base de documentos,
+
+00:03:05.641 --> 00:03:08.801
+a gente vai até ver durante o curso se a gente mantém ou ...
+
+00:03:08.801 --> 00:03:11.746
+se a gente usa só PDF ou se usa só texto por exemplo,
+
+00:03:11.746 --> 00:03:14.475
+a gente entende E o PostgreSQL é porque a gente ...
+
+00:03:14.475 --> 00:03:17.204
+vai precisar de um banco vetorial para a gente ...
+
+00:03:17.204 --> 00:03:20.580
+conseguir conectar na nossa aplicação de inteligência ...
+
+00:03:20.580 --> 00:03:23.740
+artificial para ele fazer basicamente como se fosse ...
+
+00:03:23.740 --> 00:03:27.475
+um índice de livro para ficar mais fácil de entrar e pesquisar.
+
+00:03:27.560 --> 00:03:28.575
+Bom, gente,
+
+00:03:28.575 --> 00:03:31.519
+essa é a introdução do nosso curso.
+
+00:03:32.320 --> 00:03:34.040
+Eu espero que vocês gostem.
+
+00:03:34.560 --> 00:03:36.964
+Eu vou ser bem objetivo, eu não quero que vocês ...
+
+00:03:36.964 --> 00:03:38.039
+percam muito tempo.
+
+00:03:38.880 --> 00:03:41.718
+Até por isso que o curso é poucas horas,
+
+00:03:41.718 --> 00:03:45.177
+porque é bem objetivo, bem direto ao ponto para ...
+
+00:03:45.177 --> 00:03:48.104
+vocês saírem daqui implementando essa ...
+
+00:03:48.104 --> 00:03:50.942
+tecnologia dentro das suas empresas,
+
+00:03:50.942 --> 00:03:54.490
+dos departamentos de vocês e melhorando a vida,
+
+00:03:54.490 --> 00:03:55.997
+o trabalho de vocês.
+
+00:03:56.320 --> 00:03:57.623
+Lembrem, qualquer dúvida,
+
+00:03:57.623 --> 00:03:58.359
+tem um Q&A aqui.
+
+00:03:59.200 --> 00:04:02.053
+Tem aquele QR Code ali embaixo pra você que precisa ...
+
+00:04:02.053 --> 00:04:03.479
+de um apoio, de uma ajuda.
+
+00:04:03.480 --> 00:04:05.960
+E eu tô sempre aqui disponível pra ajudar você.
+
+00:04:06.400 --> 00:04:08.240
+Vamos iniciar essa jornada, gente!  Tá bom?
+
+00:04:08.800 --> 00:04:09.280
+Vamos nessa!
+

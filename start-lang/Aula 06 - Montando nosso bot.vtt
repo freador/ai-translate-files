@@ -1,0 +1,1178 @@
+WEBVTT
+
+00:00:01.200 --> 00:00:02.920
+Deixa eu ajustar meu rosto aqui.
+
+00:00:03.280 --> 00:00:04.472
+E aí, gente,
+
+00:00:04.472 --> 00:00:09.360
+agora a gente vai para uma parte bem importante do ...
+
+00:00:09.360 --> 00:00:13.175
+nosso curso aqui, que é como a gente vai ...
+
+00:00:13.175 --> 00:00:15.678
+implementar o nosso MVP.
+
+00:00:16.200 --> 00:00:19.019
+Na última aula, a gente já conseguiu ...
+
+00:00:19.019 --> 00:00:22.401
+configurar o Evolution API, já conseguiu,
+
+00:00:22.401 --> 00:00:26.253
+mesmo no overview ali, já entender como funciona ...
+
+00:00:26.253 --> 00:00:28.038
+esse fluxo do bot aqui.
+
+00:00:29.280 --> 00:00:32.384
+Mas agora a gente vai começar a brincar um ...
+
+00:00:32.384 --> 00:00:36.127
+pouquinho mais a fundo dentro do nosso Flowwise,
+
+00:00:36.127 --> 00:00:41.239
+que é onde a gente vai configurar a nossa inteligência artificial.
+
+00:00:41.240 --> 00:00:42.983
+Então, finalmente chegamos onde eu ...
+
+00:00:42.983 --> 00:00:44.319
+acho que todo mundo queria.
+
+00:00:45.200 --> 00:00:47.680
+Então, vamos começar a nossa ...
+
+00:00:47.680 --> 00:00:51.710
+brincadeira aqui, que é acessando o Flowwise.
+
+00:00:51.710 --> 00:00:53.880
+Nossa construção da MVP.
+
+00:00:53.880 --> 00:00:58.680
+Vocês viram o que eu vi?
+
+00:01:01.000 --> 00:01:02.280
+Agora eu fiquei preocupado, hein?
+
+00:01:04.120 --> 00:01:06.760
+Vamos ver se a persistência está funcionando.
+
+00:01:07.760 --> 00:01:10.230
+Então, vamos criar um chat aqui e ...
+
+00:01:10.230 --> 00:01:13.799
+vamos colocar o nosso modo de conversacional.
+
+00:01:16.440 --> 00:01:19.280
+Retrieval, QI, QNEI.
+
+00:01:19.320 --> 00:01:21.720
+Então, peraí aqui.
+
+00:01:26.040 --> 00:01:27.120
+Provide chat aqui.
+
+00:01:29.080 --> 00:01:33.601
+A gente fez isso, vamos salvar o nosso QnA,
+
+00:01:33.601 --> 00:01:36.959
+ai.topwatts, que é o nosso MVP.
+
+00:01:36.960 --> 00:01:39.440
+Então, vamos salvar aqui.
+
+00:01:40.240 --> 00:01:42.720
+Salvou.
+
+00:01:42.880 --> 00:01:46.320
+Para a gente entender se realmente funcionou ou não ...
+
+00:01:46.320 --> 00:01:49.520
+nossas mudanças, Se a gente atualizar a página,
+
+00:01:49.520 --> 00:01:53.920
+ele vai continuar funcionando, porque ele está salvo na memória.
+
+00:01:53.920 --> 00:01:58.025
+O que a gente precisa fazer para entender se ele está ...
+
+00:01:58.025 --> 00:02:01.079
+persistindo de fato é dar um redeploy.
+
+00:02:02.920 --> 00:02:05.957
+Vamos já dar um redeploy para já testar aqui para ver se ...
+
+00:02:05.957 --> 00:02:06.902
+está 100% igual,
+
+00:02:06.902 --> 00:02:08.319
+eu imagino já que esteja.
+
+00:02:08.960 --> 00:02:15.000
+E aí até um passo importante, o Flowwise está em constante atualização.
+
+00:02:15.080 --> 00:02:17.260
+Ele fica se atualizando bastante,
+
+00:02:17.260 --> 00:02:19.440
+recebendo bastante atualização.
+
+00:02:20.680 --> 00:02:24.187
+Aqui existe um ponto que eu acho que é importante vocês ...
+
+00:02:24.187 --> 00:02:28.084
+saberem que como qualquer servidor você precisa atualizar ...
+
+00:02:28.084 --> 00:02:31.124
+também o software, mas para atualizar aqui é só ...
+
+00:02:31.124 --> 00:02:32.838
+vir aqui e dar um redeploy.
+
+00:02:32.880 --> 00:02:35.770
+Então quando você vê que tem bastante coisa nova no ...
+
+00:02:35.770 --> 00:02:38.867
+Flowwise que você quer ter e ainda não tá na sua versão,
+
+00:02:38.867 --> 00:02:42.239
+é só você vir aqui e dar um redeploy que ele vai reatualizar.
+
+00:02:42.240 --> 00:02:44.333
+E como tá salvo no disco aqui,
+
+00:02:44.333 --> 00:02:46.426
+É, isso faz com que a gente não ...
+
+00:02:46.426 --> 00:02:49.479
+precise mais se preocupar com isso, sabe?
+
+00:02:49.480 --> 00:02:52.234
+Então ele vai atualizar, vai ter as coisas novas e a ...
+
+00:02:52.234 --> 00:02:55.119
+gente não vai ter o medo de perder tudo que a gente fez.
+
+00:02:55.160 --> 00:02:57.344
+Enquanto ele vai atualizando aqui,
+
+00:02:57.344 --> 00:02:59.455
+eu vou até pausar o vídeo pra gente,
+
+00:02:59.455 --> 00:03:00.838
+né, ter tudo certinho.
+
+00:03:01.640 --> 00:03:03.760
+Demorou quase 7 minutos, demorou bastante.
+
+00:03:03.840 --> 00:03:04.846
+Vamos ver se, ó,
+
+00:03:04.846 --> 00:03:07.399
+AI Top Watts, vamos ver se ainda existe.
+
+00:03:09.800 --> 00:03:11.360
+Ah, tá persistente.
+
+00:03:13.040 --> 00:03:18.000
+melhor fazer um safe check do que não dar muito bom depois.
+
+00:03:18.840 --> 00:03:21.738
+Voltando aqui, a gente selecionou o nosso ...
+
+00:03:21.738 --> 00:03:23.973
+conversacional Retriever QnA,
+
+00:03:23.973 --> 00:03:27.036
+que ele serve basicamente para montar um bot ...
+
+00:03:27.036 --> 00:03:28.278
+conversacional.
+
+00:03:28.800 --> 00:03:31.205
+Então, ele vai procurar em algum ...
+
+00:03:31.205 --> 00:03:33.700
+lugar, vai fazer o retrieval e vai ...
+
+00:03:33.700 --> 00:03:37.799
+manter uma conversa, como a gente viu ali no automóvel.
+
+00:03:38.000 --> 00:03:39.407
+Para isso, a gente já começa a ver que ...
+
+00:03:39.407 --> 00:03:40.439
+ele pede um monte de coisa.
+
+00:03:41.520 --> 00:03:44.410
+Precisa de um modelo de chat,
+
+00:03:44.410 --> 00:03:49.107
+um banco de vetorial para ir no índice do livro,
+
+00:03:49.107 --> 00:03:52.359
+buscar a informação e retornar.
+
+00:03:53.360 --> 00:03:56.692
+Memória para ele lembrar o que foi falado em cada cinco ...
+
+00:03:56.692 --> 00:03:58.839
+mensagens, em cada dez mensagens.
+
+00:03:59.120 --> 00:04:00.440
+Nós definimos isso.
+
+00:04:01.280 --> 00:04:03.361
+E ele também tem um input de informação,
+
+00:04:03.361 --> 00:04:04.559
+porque o que acontece?
+
+00:04:04.600 --> 00:04:08.248
+A gente precisa enviar para o...
+
+00:04:08.248 --> 00:04:10.680
+para o banco de dados.
+
+00:04:10.960 --> 00:04:14.616
+Se ele não tivesse Input Moderation,
+
+00:04:14.616 --> 00:04:16.385
+aliás, voltando,
+
+00:04:16.385 --> 00:04:21.575
+esse Input Moderation é só para não ter informações,
+
+00:04:21.575 --> 00:04:25.113
+tratar de alguma forma é maliciosa,
+
+00:04:25.113 --> 00:04:29.477
+o usuário respondeu de alguma forma errada,
+
+00:04:29.477 --> 00:04:35.257
+ou às vezes você está falando de alguma coisa muito técnica ...
+
+00:04:35.257 --> 00:04:38.795
+e ele não respondeu de forma errada.
+
+00:04:38.800 --> 00:04:40.920
+Então, esse Input Generator serve para isso.
+
+00:04:41.840 --> 00:04:44.662
+Return Search Documents é quando ele tem a resposta,
+
+00:04:44.662 --> 00:04:46.522
+dá para ele pesquisar no arquivo A,
+
+00:04:46.522 --> 00:04:48.638
+no arquivo B, isso daí veio de tal lugar.
+
+00:04:49.560 --> 00:04:51.788
+E esse Conversional Retrieval Generator,
+
+00:04:51.788 --> 00:04:53.645
+se você quiser ligar em outro lugar,
+
+00:04:53.645 --> 00:04:54.759
+o Output disso daqui.
+
+00:04:56.920 --> 00:04:59.430
+Com isso a gente, na realidade,
+
+00:04:59.430 --> 00:05:03.195
+agora sai puxando o que a gente quer adicionar.
+
+00:05:03.195 --> 00:05:05.319
+Chatmodel. Eu venho aqui.
+
+00:05:05.320 --> 00:05:07.541
+Olha, ele já deu até um atualizado ...
+
+00:05:07.541 --> 00:05:09.999
+no sistema aqui, não tinha tudo isso.
+
+00:05:10.400 --> 00:05:13.440
+Chatmodel ele já tem esse montão aqui.
+
+00:05:14.680 --> 00:05:17.240
+Dá pra gente usar n's aqui.
+
+00:05:18.040 --> 00:05:21.160
+Eu gosto de usar o da OpenAI.
+
+00:05:22.640 --> 00:05:24.970
+É bom, já tem as chaves tudo ...
+
+00:05:24.970 --> 00:05:28.677
+configuradas, então acaba sendo o melhor ...
+
+00:05:28.677 --> 00:05:30.159
+caminho pra mim.
+
+00:05:31.160 --> 00:05:33.826
+Ele já tem aqui o modelo do 4U,
+
+00:05:33.826 --> 00:05:36.381
+o que acaba sendo muito bom,
+
+00:05:36.381 --> 00:05:39.047
+né, porque é um modelo já mais ...
+
+00:05:39.047 --> 00:05:41.158
+barato que esse GPT-4.
+
+00:05:42.080 --> 00:05:45.237
+Estava procurando aqui se ele não tem as atualizações do ...
+
+00:05:45.237 --> 00:05:47.319
+4U, mas pelo que eu tô vendo ainda não.
+
+00:05:47.640 --> 00:05:48.720
+Ah, tem aqui, o 4U Mini.
+
+00:05:49.840 --> 00:05:52.440
+Se quiser utilizar um modelo mais barato, é possível.
+
+00:05:52.680 --> 00:05:54.840
+Eu gosto de ter respostas melhores,
+
+00:05:54.840 --> 00:05:56.280
+então eu uso esse daqui.
+
+00:05:56.560 --> 00:06:00.360
+Para a gente gerar a chave, a gente vai precisar ir lá no OpenAI.
+
+00:06:00.360 --> 00:06:03.532
+Então, a gente vai ter que criar uma ...
+
+00:06:03.532 --> 00:06:07.799
+nova API aqui e ele vai esperar as informações.
+
+00:06:07.880 --> 00:06:09.509
+Para isso, como a gente falou,
+
+00:06:09.509 --> 00:06:11.399
+a gente tem que acessar lá o OpenAI.
+
+00:06:12.720 --> 00:06:15.640
+Aqui no Roda Peça, você tem uma conta.
+
+00:06:15.760 --> 00:06:17.834
+Se você não tem uma conta, é bom criar,
+
+00:06:17.834 --> 00:06:19.239
+mas vem aqui no API Login.
+
+00:06:20.400 --> 00:06:25.277
+Ele vai aparecer se você quer usar o chat GPT ou ir para o ...
+
+00:06:25.277 --> 00:06:27.119
+API, que é o meu caso.
+
+00:06:27.560 --> 00:06:30.565
+E aqui ele já entrou aqui no assistente,
+
+00:06:30.565 --> 00:06:34.026
+vem aqui em API Key, tem que colocar o cartão de ...
+
+00:06:34.026 --> 00:06:36.758
+crédito e crio uma nova API Key aqui.
+
+00:06:37.720 --> 00:06:39.880
+Beleza?  É isso que tem que fazer.
+
+00:06:40.280 --> 00:06:43.182
+Ele não está na minha conta pessoal,
+
+00:06:43.182 --> 00:06:47.342
+mas Você tem que vir aqui e criar uma nova chave de API ...
+
+00:06:47.342 --> 00:06:48.599
+igual eu já fiz.
+
+00:06:48.680 --> 00:06:50.617
+Aí tem vários outros projetos aqui,
+
+00:06:50.617 --> 00:06:53.199
+é só você entrar no projeto correto e fazer isso.
+
+00:06:53.480 --> 00:06:54.886
+Então, lembrando,
+
+00:06:54.886 --> 00:06:58.490
+entrou nesse platform.opmpi, criou isso aqui e,
+
+00:06:58.490 --> 00:07:00.336
+bum, pegou ela aqui e você ...
+
+00:07:00.336 --> 00:07:02.797
+consegue utilizar lá no sistema.
+
+00:07:03.720 --> 00:07:06.850
+Uma dica é a que dá para você configurar para ter limite,
+
+00:07:06.850 --> 00:07:08.959
+para ele não consumir muito crédito.
+
+00:07:09.360 --> 00:07:10.470
+Eu, se eu fosse você,
+
+00:07:10.470 --> 00:07:12.494
+eu configuraria, eu configuro o meu,
+
+00:07:12.494 --> 00:07:14.518
+e assim eu tenho mais controle, sabe?
+
+00:07:14.560 --> 00:07:17.581
+Às vezes a chave é vazada, ou a gente vai fazer um ...
+
+00:07:17.581 --> 00:07:20.679
+código e dar um loop, então eu acho que é o melhor.
+
+00:07:21.000 --> 00:07:23.080
+Bom, você criando sua chave aí,
+
+00:07:23.080 --> 00:07:26.120
+eu já tenho a minha, então eu vou colar aqui uma ...
+
+00:07:26.120 --> 00:07:27.480
+que eu uso para isso.
+
+00:07:27.480 --> 00:07:34.720
+Então já criei ali, aqui eu vou criar OpenAPI e adicionar.
+
+00:07:36.560 --> 00:07:39.223
+Daria para a gente colocar o cache,
+
+00:07:39.223 --> 00:07:42.345
+é uma boa técnica para quando a gente quer ...
+
+00:07:42.345 --> 00:07:44.825
+economizar mais nas respostas,
+
+00:07:44.825 --> 00:07:49.233
+mas o que eu preciso aqui fazer é vincular conversational ...
+
+00:07:49.233 --> 00:07:51.437
+retrieval no meu model aqui.
+
+00:07:52.160 --> 00:07:53.905
+Depois, se eu quiser usar cache,
+
+00:07:53.905 --> 00:07:55.779
+eu também consigo colocando aqui,
+
+00:07:55.779 --> 00:07:57.718
+por exemplo, vem aqui no mais e fala,
+
+00:07:57.718 --> 00:07:59.463
+preciso de ferramenta de cache,
+
+00:07:59.463 --> 00:08:00.238
+o que eu tenho?
+
+00:08:01.200 --> 00:08:03.640
+Dá pra fazer em memory, dá pra fazer uma porrada de coisa.
+
+00:08:04.440 --> 00:08:06.000
+Faça o que você achar melhor.
+
+00:08:06.280 --> 00:08:08.970
+Nesse teste a gente não vai fazer,
+
+00:08:08.970 --> 00:08:12.620
+eu só vou diminuir aqui pra 0.3 a temperatura,
+
+00:08:12.620 --> 00:08:16.078
+pra que ele não fique viajando muito, sabe?
+
+00:08:16.120 --> 00:08:18.203
+Então, aqui daria pra gente mexer ...
+
+00:08:18.203 --> 00:08:20.807
+em outras configurações, que é padrão GA,
+
+00:08:20.807 --> 00:08:23.559
+mas a gente não vai fazer isso no nosso teste.
+
+00:08:23.600 --> 00:08:25.660
+Segundo ponto que a gente precisa configurar,
+
+00:08:25.660 --> 00:08:26.399
+banco vetorial.
+
+00:08:31.040 --> 00:08:33.089
+O vector, postgres,
+
+00:08:33.089 --> 00:08:37.307
+postgres, deixa eu configurar o postgres ...
+
+00:08:37.307 --> 00:08:39.958
+aqui, postgres vetorial.
+
+00:08:40.840 --> 00:08:42.930
+Então, vem aqui,
+
+00:08:42.930 --> 00:08:45.319
+vector postgres 1.
+
+00:08:45.360 --> 00:08:48.280
+E aí, qual o ponto aqui, gente?
+
+00:08:48.800 --> 00:08:51.440
+Lembra que a gente criou lá um pgVector?
+
+00:08:52.400 --> 00:08:54.223
+Esse carinha aqui, ele já tem todas as ...
+
+00:08:54.223 --> 00:08:55.399
+informações pra gente.
+
+00:08:56.520 --> 00:08:58.486
+Então, se a gente vier aqui nas ...
+
+00:08:58.486 --> 00:09:00.688
+variáveis, ele tem tipo o banco de ...
+
+00:09:00.688 --> 00:09:02.497
+dados, tipo a URL do banco de ...
+
+00:09:02.497 --> 00:09:03.755
+dados, tem um host,
+
+00:09:03.755 --> 00:09:08.317
+tudo bonitinho para a gente configurar ali dentro do nosso Flowwise.
+
+00:09:08.760 --> 00:09:11.940
+Então, isso facilita bastante para a ...
+
+00:09:11.940 --> 00:09:15.839
+gente brincar aqui e fazer a nossa aplicação.
+
+00:09:15.840 --> 00:09:18.530
+Então, a gente vai configurar o host,
+
+00:09:18.530 --> 00:09:20.439
+que é aquele Postgre Host.
+
+00:09:20.480 --> 00:09:23.379
+A gente vai precisar agora do database,
+
+00:09:23.379 --> 00:09:25.399
+que é esse daqui, o Railway.
+
+00:09:27.160 --> 00:09:30.430
+A porta, não sei se mudou aqui,
+
+00:09:30.430 --> 00:09:32.000
+vamos ver, 15,
+
+00:09:32.000 --> 00:09:33.439
+6, 7, 6 Mudou.
+
+00:09:34.240 --> 00:09:37.000
+E aí a gente vai criar aqui a nossa Não.
+
+00:09:37.040 --> 00:09:39.960
+Então aqui a gente fala pgVector.
+
+00:09:41.480 --> 00:09:49.200
+Username a gente vai pegar aqui também, pgUser.
+
+00:09:49.240 --> 00:09:51.840
+E o password, que é esse carinha aqui embaixo.
+
+00:09:54.320 --> 00:09:56.178
+Como sempre, meu rostinho maravilhoso ...
+
+00:09:56.178 --> 00:09:57.079
+atrapalha a gente.
+
+00:09:57.080 --> 00:10:00.920
+Vamos copiar ali e colar aqui.
+
+00:10:04.320 --> 00:10:05.909
+Com isso, teoricamente,
+
+00:10:05.909 --> 00:10:08.179
+a gente não vai ter nenhum problema,
+
+00:10:08.179 --> 00:10:09.919
+mas a gente já dá um check aí.
+
+00:10:10.920 --> 00:10:13.845
+O input moderation ali, como a gente pode ver,
+
+00:10:13.845 --> 00:10:15.769
+ele é apenas se a gente quiser,
+
+00:10:15.769 --> 00:10:19.079
+mas eu acho que vale a pena para a gente ter uma ideia.
+
+00:10:19.080 --> 00:10:22.258
+Então, moderation daria para fazer,
+
+00:10:22.258 --> 00:10:25.539
+por exemplo, usando o próprio OpenAI,
+
+00:10:25.539 --> 00:10:29.025
+e aí ele já tem aqui a mensagem para a gente ...
+
+00:10:29.025 --> 00:10:33.639
+bonitinho, então já daria para a gente já configurar.
+
+00:10:34.720 --> 00:10:35.635
+É, eu acho que é um ponto ...
+
+00:10:35.635 --> 00:10:36.984
+importante, vocês estão vendo eu ...
+
+00:10:36.984 --> 00:10:37.947
+clicando, arrastando,
+
+00:10:37.947 --> 00:10:38.958
+mó facilidade tudo mais.
+
+00:10:39.520 --> 00:10:41.440
+Isso tudo também é possível fazer via código, tá?
+
+00:10:43.720 --> 00:10:46.547
+Mas, como vocês podem ver por ...
+
+00:10:46.547 --> 00:10:49.845
+aqui, é tão mais fácil fazer assim ...
+
+00:10:49.845 --> 00:10:54.439
+do que sair colocando código em cima de código.
+
+00:10:54.440 --> 00:10:56.516
+Tipo, eu já fiz por código e eu sei o ...
+
+00:10:56.516 --> 00:10:57.479
+quão difícil é.
+
+00:10:58.000 --> 00:11:00.687
+Dá problema pra caramba. Biblioteca errada e a versão ...
+
+00:11:00.687 --> 00:11:02.239
+do Python às vezes dá problema.
+
+00:11:02.920 --> 00:11:03.920
+Por aqui é muito mais fácil.
+
+00:11:03.920 --> 00:11:06.320
+Então, eu recomendo.
+
+00:11:06.720 --> 00:11:09.648
+Vamos usar um buffer memory aqui só pra As ...
+
+00:11:09.648 --> 00:11:10.767
+pessoas, tipo,
+
+00:11:10.767 --> 00:11:14.039
+não se perderem muito fácil nas mensagens lá.
+
+00:11:14.080 --> 00:11:15.435
+Então, memória,
+
+00:11:15.435 --> 00:11:18.919
+vamos configurar aqui o buffer de memória.
+
+00:11:19.360 --> 00:11:22.680
+Já tenho aqui as informações, só que não é isso que eu uso.
+
+00:11:23.720 --> 00:11:26.780
+Porque o que eu uso, ele ele tem a quantidade de ...
+
+00:11:26.780 --> 00:11:29.599
+memórias que eu quero aqui, ó, esse daqui.
+
+00:11:30.680 --> 00:11:33.708
+Porque o que acontece? Eu quero limitar até,
+
+00:11:33.708 --> 00:11:35.835
+sei lá, a memória dele em 10 para ...
+
+00:11:35.835 --> 00:11:37.799
+não explodir o meu servidor.
+
+00:11:38.800 --> 00:11:41.040
+Tem aqui, tranquilo, certo?
+
+00:11:41.800 --> 00:11:45.241
+E aí pro grande final. A base dos conversacionais é ...
+
+00:11:45.241 --> 00:11:48.519
+bem similar a essa, eu acho que muda pouca coisa.
+
+00:11:49.840 --> 00:11:51.465
+A gente vai começar a pegar aqui,
+
+00:11:51.465 --> 00:11:54.294
+eu lembro que aqui atrás no InputModeration eu confundi ...
+
+00:11:54.294 --> 00:11:55.558
+com esse RecordManager.
+
+00:11:56.400 --> 00:12:00.071
+Então a gente vem aqui, RecordManager,
+
+00:12:00.071 --> 00:12:03.853
+do Postgres, adiciona aqui só pra não ter ...
+
+00:12:03.853 --> 00:12:07.746
+duplicidade, seleciona já o nosso vetor,
+
+00:12:07.746 --> 00:12:12.306
+Isso daqui é muito bom, porque senão você começa a ...
+
+00:12:12.306 --> 00:12:16.310
+fazer muita coisa dentro do banco de dados,
+
+00:12:16.310 --> 00:12:18.757
+então isso aqui ajuda bem.
+
+00:12:18.880 --> 00:12:22.236
+Deixa eu ver se precisa fazer nenhuma configuração,
+
+00:12:22.236 --> 00:12:24.601
+mas daria para adicionar um clean up,
+
+00:12:24.601 --> 00:12:27.805
+e a cada vez que roda é o upset que a gente vai fazer na ...
+
+00:12:27.805 --> 00:12:30.246
+sua frente, que é basicamente Toda vez ...
+
+00:12:30.246 --> 00:12:32.611
+que a gente coloca mais informações,
+
+00:12:32.611 --> 00:12:34.594
+a gente tem que rodar um upsert,
+
+00:12:34.594 --> 00:12:37.645
+que é basicamente como se a gente fosse ensinar a ...
+
+00:12:37.645 --> 00:12:39.933
+inteligência artificial, ou seja,
+
+00:12:39.933 --> 00:12:42.755
+dar o conteúdo da inteligência artificial.
+
+00:12:43.840 --> 00:12:48.760
+E para não duplicar, é possível fazer até esse cleanup.
+
+00:12:49.080 --> 00:12:52.763
+Quero toda vez não fazer um cleanup,
+
+00:12:52.763 --> 00:12:57.919
+ou somente deletar o antigo e fazer o incremental.
+
+00:12:57.920 --> 00:12:59.360
+Então dá para configurar nisso.
+
+00:13:00.000 --> 00:13:01.000
+E ajuda, é bom.
+
+00:13:01.760 --> 00:13:02.480
+Ajuda bastante.
+
+00:13:03.600 --> 00:13:07.366
+Usem embeddings, que é justamente para fazer ...
+
+00:13:07.366 --> 00:13:12.719
+aquele processinho de pegar o texto e colocar no banco vetorial.
+
+00:13:13.360 --> 00:13:16.326
+Eu uso bastante o da OpenAI também para não ficar ...
+
+00:13:16.326 --> 00:13:18.921
+trabalhando com várias APIs diferentes,
+
+00:13:18.921 --> 00:13:19.959
+dar um trabalho.
+
+00:13:19.960 --> 00:13:22.589
+Então eu acho que aqui é o jeito mais fácil da gente ...
+
+00:13:22.589 --> 00:13:24.769
+trabalhar, que é basicamente pegar aqui ...
+
+00:13:24.769 --> 00:13:26.244
+o embedding, colocar aqui,
+
+00:13:26.244 --> 00:13:27.398
+selecionar o modelo.
+
+00:13:27.720 --> 00:13:30.367
+Eu gosto de trabalhar com o large,
+
+00:13:30.367 --> 00:13:33.959
+porque aí ele dá melhores respostas para mim.
+
+00:13:35.200 --> 00:13:38.203
+E eu gosto de Ah, já fiz aqui a configuração,
+
+00:13:38.203 --> 00:13:41.206
+mas daria para a gente colocar o batch size,
+
+00:13:41.206 --> 00:13:42.958
+melhorar ele mais ainda.
+
+00:13:43.400 --> 00:13:43.983
+Mas, para mim,
+
+00:13:43.983 --> 00:13:45.879
+essa configuração sempre funciona muito bem.
+
+00:13:47.320 --> 00:13:48.494
+E, por último,
+
+00:13:48.494 --> 00:13:52.408
+nesse primeiro exemplo, a gente vai pegar um PDF ...
+
+00:13:52.408 --> 00:13:55.735
+que eu já deixei aqui pronto para a gente,
+
+00:13:55.735 --> 00:13:58.964
+que é A gente vai pegar aqui o documento,
+
+00:13:58.964 --> 00:14:01.410
+colocar ali, Eu coloquei PDF,
+
+00:14:01.410 --> 00:14:03.758
+né, mas aqui dentro do Fluize ...
+
+00:14:03.758 --> 00:14:06.596
+eles têm vários document loaders.
+
+00:14:06.600 --> 00:14:09.139
+Então daria pra gente, por exemplo,
+
+00:14:09.139 --> 00:14:11.762
+usar uma API para buscar informação,
+
+00:14:11.762 --> 00:14:14.724
+ler o website, buscar de uma planilha para ...
+
+00:14:14.724 --> 00:14:18.109
+tirar conclusões, fazer perguntas baseadas em ...
+
+00:14:18.109 --> 00:14:20.732
+uma planilha, documentos que estão,
+
+00:14:20.732 --> 00:14:21.916
+por exemplo, lá.
+
+00:14:21.960 --> 00:14:24.120
+Lembra da sessão do Flowwise que a gente viu?
+
+00:14:24.880 --> 00:14:27.400
+Arquivos em Word, Figma,
+
+00:14:27.400 --> 00:14:30.160
+FireCloud, que é muito bom.
+
+00:14:30.800 --> 00:14:32.625
+Dá para a gente ler repositório,
+
+00:14:32.625 --> 00:14:34.112
+arquivos em JSON, Notion,
+
+00:14:34.112 --> 00:14:35.599
+que eu já utilizei também.
+
+00:14:36.520 --> 00:14:38.440
+Então dá pra fazer muita coisa aqui,
+
+00:14:38.440 --> 00:14:40.040
+é bem legal, bem bacana mesmo.
+
+00:14:40.640 --> 00:14:45.045
+Em nosso caso a gente vai começar aqui pelo PDF que ...
+
+00:14:45.045 --> 00:14:49.879
+eu já montei aqui pra gente, é um documento por página.
+
+00:14:49.920 --> 00:14:54.600
+Deixa eu ver se a gente consegue abrir aqui os downloads.
+
+00:14:55.920 --> 00:14:56.840
+Deixa eu ver onde ela tá.
+
+00:14:57.760 --> 00:15:01.760
+Eu já vou deixar o documento aberto aqui pra gente.
+
+00:15:01.800 --> 00:15:04.720
+Eu acabei de baixar ele do Notion.
+
+00:15:17.120 --> 00:15:18.600
+Só um minutinho que eu vou baixar ele de novo.
+
+00:15:19.760 --> 00:15:22.068
+Vamos lá, vamos fazer o upload do ...
+
+00:15:22.068 --> 00:15:24.719
+arquivo aqui que eu já fiz o download.
+
+00:15:25.560 --> 00:15:29.200
+Então o arquivo é bem simples na realidade.
+
+00:15:29.240 --> 00:15:30.960
+Deixa eu vir aqui.
+
+00:15:31.840 --> 00:15:35.405
+Ele é sobre uma consultoria de AI aqui,
+
+00:15:35.405 --> 00:15:41.199
+onde a gente ajuda os nossos clientes a fazer os seus serviços.
+
+00:15:42.040 --> 00:15:45.084
+Então, a ideia é que a gente possa ...
+
+00:15:45.084 --> 00:15:51.399
+fazer algumas perguntas para essa inteligência artificial aqui.
+
+00:15:51.440 --> 00:15:54.022
+A gente já subiu o documento,
+
+00:15:54.022 --> 00:15:58.971
+e aí a única coisa que a gente tem que fazer é para dividir ...
+
+00:15:58.971 --> 00:16:03.920
+esse documento para ele ficar mais fácil quando a AI for ...
+
+00:16:03.920 --> 00:16:08.438
+buscar lá para a gente, que é usando esse text Cadê?
+
+00:16:12.000 --> 00:16:14.520
+recursive character splitter.
+
+00:16:14.560 --> 00:16:17.795
+A gente coloca aqui, que é basicamente para ele ...
+
+00:16:17.795 --> 00:16:21.279
+pegar esse documento, ou qualquer documento que a ...
+
+00:16:21.279 --> 00:16:23.933
+gente for colocar, e dividir a cada 500 ...
+
+00:16:23.933 --> 00:16:26.007
+caracteres, se não me engano,
+
+00:16:26.007 --> 00:16:27.998
+que ele vai fazer nos chunks.
+
+00:16:28.040 --> 00:16:29.393
+Então, a gente configura aqui o ...
+
+00:16:29.393 --> 00:16:30.799
+tamanho do caractere, tá vendo?
+
+00:16:30.880 --> 00:16:34.044
+Então, default é 1000,
+
+00:16:34.044 --> 00:16:40.039
+e aí a cada 200 caracteres ele faz o chunk aí.
+
+00:16:41.880 --> 00:16:43.720
+Então, é isso.
+
+00:16:44.080 --> 00:16:45.440
+A gente salva aqui.
+
+00:16:46.080 --> 00:16:48.606
+Teoricamente salvando já vai aparecer o botãozinho de ...
+
+00:16:48.606 --> 00:16:49.319
+fazer o upsert.
+
+00:16:50.240 --> 00:16:53.240
+E vamos cruzar os dedos para garantir que esteja tudo aqui.
+
+00:16:53.280 --> 00:16:57.520
+O upsert no banco de dados.
+
+00:16:57.560 --> 00:17:02.917
+Ele está mostrando aqui que ele pegou os documentos e ...
+
+00:17:02.917 --> 00:17:05.839
+subiu ali dentro do sistema.
+
+00:17:11.440 --> 00:17:13.455
+Ah, ele fez um bom trabalho aqui ...
+
+00:17:13.455 --> 00:17:16.400
+de leitura do documento e colocar no sistema.
+
+00:17:17.320 --> 00:17:19.604
+Se a gente fosse testar, por exemplo,
+
+00:17:19.604 --> 00:17:21.519
+agora, a gente já conseguiria.
+
+00:17:21.520 --> 00:17:23.045
+Então, hi there,
+
+00:17:23.045 --> 00:17:24.679
+how can I help you?
+
+00:17:24.680 --> 00:17:27.600
+Dá para a gente tocar todas essas mensagens, eu já mostro.
+
+00:17:27.640 --> 00:17:29.960
+Mas vamos fazer uma pergunta sobre lá o documento.
+
+00:17:29.960 --> 00:17:31.800
+Estou com ele aberto aqui em alta janela.
+
+00:17:35.680 --> 00:17:43.160
+O que fazemos no serviço de consultoria de IA.
+
+00:17:43.960 --> 00:17:45.960
+Tem uma observação aqui importante.
+
+00:17:46.800 --> 00:17:49.830
+Não é tão rápido depois que a gente dá o upsert que ele ...
+
+00:17:49.830 --> 00:17:51.239
+começa a responder, tá?
+
+00:17:51.960 --> 00:17:54.913
+Porque o modelo ainda vai aprender a processar,
+
+00:17:54.913 --> 00:17:58.679
+tem um periodinho de cache, e aí ele começa a responder certo.
+
+00:17:59.320 --> 00:18:02.040
+Mas vamos ver aqui o que ele já traz.
+
+00:18:02.840 --> 00:18:05.450
+A FG é exatamente o texto que eu coloquei lá,
+
+00:18:05.450 --> 00:18:07.915
+então ele leu, entendeu minha pergunta e ...
+
+00:18:07.915 --> 00:18:09.800
+respondeu da maneira correta.
+
+00:18:12.520 --> 00:18:30.120
+Grrrrrrrrrr mandou bem.
+
+00:18:31.360 --> 00:18:33.086
+Tipo, ele respondeu de uma ...
+
+00:18:33.086 --> 00:18:35.439
+maneira melhor do que está escrita.
+
+00:18:35.480 --> 00:18:38.210
+Então, era realmente isso que a ...
+
+00:18:38.210 --> 00:18:40.520
+gente estava precisando.
+
+00:18:41.480 --> 00:18:43.802
+Então, com isso daqui a gente já ...
+
+00:18:43.802 --> 00:18:46.302
+consegue entender, por exemplo,
+
+00:18:46.302 --> 00:18:49.785
+que a gente consegue ter uma base de dados ali na ...
+
+00:18:49.785 --> 00:18:54.518
+ponta e ele consegue sair respondendo sobre esses documentos.
+
+00:18:54.560 --> 00:18:56.220
+Então, se a gente clica aqui em ...
+
+00:18:56.220 --> 00:18:58.279
+salvar, a gente já tem ali o nosso bot.
+
+00:18:59.600 --> 00:19:04.640
+eu preciso agora colocar isso dentro do meu site então dá ...
+
+00:19:04.640 --> 00:19:09.787
+pra gente fazer aqui ó o bot é para colocar dentro do site dá ...
+
+00:19:09.787 --> 00:19:14.505
+para fazer via javascript dá para usar um um embed que ...
+
+00:19:14.505 --> 00:19:19.545
+aparece o pop-up ali né para colocar no site ou dá até para ...
+
+00:19:19.545 --> 00:19:24.585
+compartilhar o chat você clica aqui cola você vai ver que ...
+
+00:19:24.585 --> 00:19:27.373
+Você consegue já ter ali o chat,
+
+00:19:27.373 --> 00:19:29.839
+fazer as mesmas perguntas.
+
+00:19:30.720 --> 00:19:32.091
+Dá também para trocar, tipo,
+
+00:19:32.091 --> 00:19:33.519
+aquelas mensagens iniciais.
+
+00:19:33.560 --> 00:19:34.920
+Dá para customizar bem.
+
+00:19:35.520 --> 00:19:38.680
+Isso é bem legal, assim, do Flowwise.
+
+00:19:40.040 --> 00:19:43.563
+E aí, tem um pontinho aqui que a ...
+
+00:19:43.563 --> 00:19:45.959
+gente não falou, né?
+
+00:19:47.000 --> 00:19:49.885
+Sobre ir lá e buscar informação,
+
+00:19:49.885 --> 00:19:53.839
+responder a informação, acho que é bem isso.
+
+00:19:54.600 --> 00:19:55.457
+Ah, Biro,
+
+00:19:55.457 --> 00:19:59.639
+quero agora fazer sobre um banco de dados meus.
+
+00:19:59.800 --> 00:20:02.000
+Você pode trocar ali o loader.
+
+00:20:03.400 --> 00:20:07.667
+A base é sempre a mesma, e aí você vai buscando de ...
+
+00:20:07.667 --> 00:20:09.199
+outros lugares.
+
+00:20:10.040 --> 00:20:13.322
+Mas um ponto que é bem importante assim,
+
+00:20:13.322 --> 00:20:15.808
+gente, que eu não falei ainda,
+
+00:20:15.808 --> 00:20:19.289
+é sobre o prompt, que aí a gente vai falar na ...
+
+00:20:19.289 --> 00:20:21.278
+próxima aula, pode ser?
+
+00:20:21.320 --> 00:20:22.882
+Então, Não fujam,
+
+00:20:22.882 --> 00:20:27.880
+a gente já tá indo pra reta final aqui da nossa brincadeira ...
+
+00:20:27.880 --> 00:20:32.878
+do nosso MVP e eu espero que vocês sigam comigo até o final.
+
+00:20:33.240 --> 00:20:34.480
+Vejo vocês no próximo vídeo.
+
